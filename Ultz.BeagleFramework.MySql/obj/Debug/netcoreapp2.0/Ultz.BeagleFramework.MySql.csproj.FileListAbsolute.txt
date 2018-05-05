@@ -1,0 +1,10 @@
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.deps.json
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.csproj.CoreCompileInputs.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.AssemblyInfoInputs.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.AssemblyInfo.cs
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.pdb
