@@ -7,11 +7,11 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Ultz.BeagleFramework.MySql/1.0.1": {
+      "Ultz.BeagleFramework.MySql/1.0.1.1": {
         "dependencies": {
           "MySql.Data": "8.0.11",
           "NETStandard.Library": "2.0.1",
-          "Ultz.BeagleFramework": "1.0.1"
+          "Ultz.BeagleFramework": "1.0.1.1"
         },
         "runtime": {
           "Ultz.BeagleFramework.MySql.dll": {}
@@ -199,7 +199,7 @@
           "System.Runtime": "4.1.0"
         }
       },
-      "Ultz.BeagleFramework/1.0.1": {
+      "Ultz.BeagleFramework/1.0.1.1": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2"
         },
@@ -210,7 +210,7 @@
     }
   },
   "libraries": {
-    "Ultz.BeagleFramework.MySql/1.0.1": {
+    "Ultz.BeagleFramework.MySql/1.0.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -390,7 +390,7 @@
       "path": "system.threading.tasks/4.0.11",
       "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
     },
-    "Ultz.BeagleFramework/1.0.1": {
+    "Ultz.BeagleFramework/1.0.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

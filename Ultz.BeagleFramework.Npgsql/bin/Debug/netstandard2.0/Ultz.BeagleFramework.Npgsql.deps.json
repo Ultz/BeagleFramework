@@ -7,11 +7,11 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Ultz.BeagleFramework.Npgsql/1.0.1": {
+      "Ultz.BeagleFramework.Npgsql/1.0.1.1": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
           "Npgsql": "3.2.7",
-          "Ultz.BeagleFramework": "1.0.1"
+          "Ultz.BeagleFramework": "1.0.1.1"
         },
         "runtime": {
           "Ultz.BeagleFramework.Npgsql.dll": {}
@@ -67,7 +67,7 @@
           "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
-      "Ultz.BeagleFramework/1.0.1": {
+      "Ultz.BeagleFramework/1.0.1.1": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2"
         },
@@ -78,7 +78,7 @@
     }
   },
   "libraries": {
-    "Ultz.BeagleFramework.Npgsql/1.0.1": {
+    "Ultz.BeagleFramework.Npgsql/1.0.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -146,7 +146,7 @@
       "path": "system.threading.tasks.extensions/4.3.0",
       "hashPath": "system.threading.tasks.extensions.4.3.0.nupkg.sha512"
     },
-    "Ultz.BeagleFramework/1.0.1": {
+    "Ultz.BeagleFramework/1.0.1.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
