@@ -4,7 +4,7 @@
     <Authors>Ultz</Authors>
     <Company>Ultz Limited</Company>
     <Product>Beagle Framework</Product>
-    <Version>1.0.1</Version>
+    <Version>1.0.1.1</Version>
     <Description>Beagle Framework is a database access technology for C#, extracted from Ultz Online for public use. This package binds Beagle to Microsoft SQL Server</Description>
     <RepositoryUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
@@ -12,8 +12,8 @@
     <PackageProjectUrl>https://hub.ultz.co.uk/code/projects/BF/</PackageProjectUrl>
     <PackageLicenseUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle/browse/LICENSE.MD</PackageLicenseUrl>
     <PackageReleaseNotes>Whoops, we released it as a .NET Core library. We've fixed the issue, and Beagle should now be compatible with all .NET Standard 2.X platforms.</PackageReleaseNotes>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ultz.BeagleFramework\Ultz.BeagleFramework.csproj" />

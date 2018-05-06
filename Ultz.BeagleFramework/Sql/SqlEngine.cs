@@ -16,6 +16,11 @@ namespace Ultz.BeagleFramework.Sql
             Initialize(connectionString);
         }
 
+        public SqlEngine()
+        {
+            
+        }
+
         public abstract string Id { get; }
         public abstract SqlConnector Connector { get; }
         public IEnumerable<ITable> Tables => GetTables().Select(x => x.Value);

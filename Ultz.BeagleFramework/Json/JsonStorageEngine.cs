@@ -14,6 +14,11 @@ namespace Ultz.BeagleFramework.Json
         internal string _path;
         public List<FileStream> Locks { get; set; }
 
+        public JsonStorageEngine()
+        {
+            
+        }
+        
         public JsonStorageEngine(Encoding encoding, string rootDirectoryPath)
         {
             _path = rootDirectoryPath;

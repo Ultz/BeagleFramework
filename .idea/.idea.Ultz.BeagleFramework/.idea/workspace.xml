@@ -2,66 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477728f0-c496-4cd4-92b4-39de74323d15" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Ultz.BeagleFramework/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Ultz.BeagleFramework/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Ultz.BeagleFramework/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BeagleTestApp/obj/BeagleTestApp.csproj.nuget.cache" afterPath="$PROJECT_DIR$/BeagleTestApp/obj/BeagleTestApp.csproj.nuget.cache" />
+      <change beforePath="$PROJECT_DIR$/BeagleTestApp/obj/BeagleTestApp.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/BeagleTestApp/obj/BeagleTestApp.csproj.nuget.g.props" />
       <change beforePath="$PROJECT_DIR$/BeagleTestApp/obj/project.assets.json" afterPath="$PROJECT_DIR$/BeagleTestApp/obj/project.assets.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Ultz.BeagleFramework.MySql.csproj" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Ultz.BeagleFramework.MySql.csproj" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.AssemblyInfo.cs" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.AssemblyInfoInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.csproj.FileListAbsolute.txt" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.MySql.pdb" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.MySql.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.MySql.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.MySql.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.MySql.AssemblyInfoInputs.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Ultz.BeagleFramework.MySql.csproj.nuget.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Ultz.BeagleFramework.MySql.csproj.nuget.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Ultz.BeagleFramework.MySql.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Ultz.BeagleFramework.MySql.csproj.nuget.g.props" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Ultz.BeagleFramework.MySql.csproj.nuget.g.targets" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/Ultz.BeagleFramework.MySql.csproj.nuget.g.targets" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/project.assets.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/project.assets.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/obj/project.packagespec.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/Ultz.BeagleFramework.Npgsql.csproj" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/Ultz.BeagleFramework.Npgsql.csproj" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfo.cs" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfoInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.csproj.FileListAbsolute.txt" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.Npgsql.pdb" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Debug/netstandard2.0/Ultz.BeagleFramework.Npgsql.AssemblyInfoInputs.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Ultz.BeagleFramework.Npgsql.csproj.nuget.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Ultz.BeagleFramework.Npgsql.csproj.nuget.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Ultz.BeagleFramework.Npgsql.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Ultz.BeagleFramework.Npgsql.csproj.nuget.g.props" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Ultz.BeagleFramework.Npgsql.csproj.nuget.g.targets" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/Ultz.BeagleFramework.Npgsql.csproj.nuget.g.targets" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/project.assets.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/project.assets.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/obj/project.packagespec.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Ultz.BeagleFramework.SqlServer.csproj" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Ultz.BeagleFramework.SqlServer.csproj" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfoInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.csproj.FileListAbsolute.txt" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.SqlServer.pdb" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netstandard2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netstandard2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netstandard2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Debug/netstandard2.0/Ultz.BeagleFramework.SqlServer.AssemblyInfoInputs.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Ultz.BeagleFramework.SqlServer.csproj.nuget.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Ultz.BeagleFramework.SqlServer.csproj.nuget.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Ultz.BeagleFramework.SqlServer.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Ultz.BeagleFramework.SqlServer.csproj.nuget.g.props" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Ultz.BeagleFramework.SqlServer.csproj.nuget.g.targets" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/Ultz.BeagleFramework.SqlServer.csproj.nuget.g.targets" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/project.assets.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/project.assets.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/obj/project.packagespec.json" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/Ultz.BeagleFramework.csproj" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/Ultz.BeagleFramework.csproj" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.AssemblyInfo.cs" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.AssemblyInfoInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.csproj.FileListAbsolute.txt" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.dll" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netcoreapp2.0/Ultz.BeagleFramework.pdb" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netstandard2.0/Ultz.BeagleFramework.deps.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netstandard2.0/Ultz.BeagleFramework.deps.json" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netstandard2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netstandard2.0/Ultz.BeagleFramework.dll" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netstandard2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/bin/Debug/netstandard2.0/Ultz.BeagleFramework.pdb" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.AssemblyInfoInputs.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.AssemblyInfoInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.dll" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.dll" />
+      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.pdb" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Debug/netstandard2.0/Ultz.BeagleFramework.pdb" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Ultz.BeagleFramework.csproj.nuget.cache" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Ultz.BeagleFramework.csproj.nuget.cache" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Ultz.BeagleFramework.csproj.nuget.g.props" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Ultz.BeagleFramework.csproj.nuget.g.props" />
-      <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Ultz.BeagleFramework.csproj.nuget.g.targets" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/Ultz.BeagleFramework.csproj.nuget.g.targets" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/project.assets.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/project.assets.json" />
       <change beforePath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/Ultz.BeagleFramework/obj/project.packagespec.json" />
     </list>
@@ -74,25 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SqlConnector.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlConnector.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-              <folding>
-                <marker date="1525552895904" expanded="true" signature="6:73" ph="..." />
-                <marker date="1525552895904" expanded="true" signature="164:896" ph="{...}" />
-                <marker date="1525552895904" expanded="true" signature="870:890" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BeagleTestApp/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            <state relative-caret-position="135">
+              <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
               <folding>
                 <marker date="1525554450670" expanded="false" signature="6:115" ph="..." />
                 <marker date="1525554450670" expanded="true" signature="140:474" ph="{...}" />
@@ -103,55 +66,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonStorageEngine.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs">
+      <file leaf-file-name="SqlEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
               <folding>
-                <marker date="1525553499024" expanded="false" signature="6:125" ph="..." />
-                <marker date="1525553499024" expanded="true" signature="216:3726" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="456:1058" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="914:1045" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="1172:1566" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="1599:1692" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="1794:2510" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="2366:2497" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="2555:2616" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="2749:2868" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="2927:3222" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="3286:3407" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="3454:3518" ph="{...}" />
-                <marker date="1525553499024" expanded="true" signature="3561:3720" ph="{...}" />
+                <marker date="1525644745515" expanded="false" signature="6:143" ph="..." />
+                <marker date="1525644745515" expanded="true" signature="179:3554" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="234:3552" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="378:440" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="468:501" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="744:1137" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="895:1127" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
+                <marker date="1525644745515" expanded="true" signature="1182:1320" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="1376:1472" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="1531:1650" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="1714:2467" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="1924:2040" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="2194:2410" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="2514:2885" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="2590:2829" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="2955:3462" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="3031:3423" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="3149:3373" ph="{...}" />
+                <marker date="1525644745515" expanded="true" signature="3493:3546" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqlEngine.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs">
+      <file leaf-file-name="Ultz.BeagleFramework.csproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Ultz.BeagleFramework.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-              <folding>
-                <marker date="1525554116123" expanded="false" signature="6:143" ph="..." />
-                <marker date="1525554116123" expanded="true" signature="234:3491" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="378:440" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="683:1076" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="834:1066" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
-                <marker date="1525554116123" expanded="true" signature="1121:1259" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="1315:1411" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="1470:1589" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="1653:2406" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="1863:1979" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="2133:2349" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="2453:2824" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="2529:2768" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="2894:3401" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="2970:3362" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="3088:3312" ph="{...}" />
-                <marker date="1525554116123" expanded="true" signature="3432:3485" ph="{...}" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ultz.BeagleFramework.MySql.csproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Ultz.BeagleFramework.MySql.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ultz.BeagleFramework.Npgsql.csproj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/Ultz.BeagleFramework.Npgsql.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ultz.BeagleFramework.SqlServer.csproj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Ultz.BeagleFramework.SqlServer.csproj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,9 +139,10 @@
       <file leaf-file-name="MySqlEngine.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/MySqlEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
+                <marker date="1525554273942" expanded="true" signature="69:350" ph="{...}" />
                 <marker date="1525554273942" expanded="true" signature="112:348" ph="{...}" />
                 <marker date="1525554273942" expanded="true" signature="322:342" ph="{...}" />
               </folding>
@@ -175,6 +156,7 @@
             <state relative-caret-position="150">
               <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
+                <marker date="1525554273891" expanded="true" signature="74:359" ph="{...}" />
                 <marker date="1525554273891" expanded="true" signature="118:357" ph="{...}" />
                 <marker date="1525554273891" expanded="true" signature="331:351" ph="{...}" />
               </folding>
@@ -185,33 +167,13 @@
       <file leaf-file-name="SqlServerEngine.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/SqlServerEngine.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="120">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <marker date="1525554273860" expanded="false" signature="6:65" ph="..." />
+                <marker date="1525554273860" expanded="true" signature="107:405" ph="{...}" />
                 <marker date="1525554273860" expanded="true" signature="154:403" ph="{...}" />
                 <marker date="1525554273860" expanded="true" signature="377:397" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonTableEnumerable.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonTableEnumerable.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
-              <folding>
-                <marker date="1525552895711" expanded="false" signature="6:59" ph="..." />
-                <marker date="1525552895711" expanded="true" signature="157:1582" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="277:327" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="379:440" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="489:545" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="601:1576" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="810:923" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="959:1204" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="1237:1328" ph="{...}" />
-                <marker date="1525552895711" expanded="true" signature="1472:1566" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -299,14 +261,18 @@
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Class1.cs" />
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Class1.cs" />
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Class1.cs" />
-        <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs" />
-        <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs" />
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/MySqlEngine.cs" />
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/NpgsqlEngine.cs" />
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/SqlServerEngine.cs" />
         <option value="$PROJECT_DIR$/BeagleTestApp/Person.cs" />
         <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Common/Store.cs" />
         <option value="$PROJECT_DIR$/BeagleTestApp/Program.cs" />
+        <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs" />
+        <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs" />
+        <option value="$PROJECT_DIR$/Ultz.BeagleFramework/Ultz.BeagleFramework.csproj" />
+        <option value="$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Ultz.BeagleFramework.MySql.csproj" />
+        <option value="$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/Ultz.BeagleFramework.Npgsql.csproj" />
+        <option value="$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Ultz.BeagleFramework.SqlServer.csproj" />
       </list>
     </option>
   </component>
@@ -350,6 +316,18 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Ultz.BeagleFramework (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Ultz.BeagleFramework" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Ultz.BeagleFramework (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Ultz.BeagleFramework" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Json" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Ultz.BeagleFramework (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Ultz.BeagleFramework" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Sql" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -430,11 +408,12 @@
       <updated>1525547929295</updated>
       <workItem from="1525547931473" duration="7404000" />
       <workItem from="1525642438588" duration="88000" />
+      <workItem from="1525644590997" duration="291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7492000" />
+    <option name="totallyTimeSpent" value="7783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,22 +432,22 @@
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39973786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -484,63 +463,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlConnector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <marker date="1525552895904" expanded="true" signature="6:73" ph="..." />
-            <marker date="1525552895904" expanded="true" signature="164:896" ph="{...}" />
-            <marker date="1525552895904" expanded="true" signature="870:890" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <marker date="1525553499024" expanded="false" signature="6:125" ph="..." />
-            <marker date="1525553499024" expanded="true" signature="216:3726" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="456:1058" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="914:1045" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="1172:1566" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="1599:1692" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="1794:2510" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2366:2497" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2555:2616" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2749:2868" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2927:3222" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="3286:3407" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="3454:3518" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="3561:3720" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
           <folding>
-            <marker date="1525554116123" expanded="false" signature="6:143" ph="..." />
-            <marker date="1525554116123" expanded="true" signature="234:3491" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="378:440" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="683:1076" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="834:1066" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
-            <marker date="1525554116123" expanded="true" signature="1121:1259" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1315:1411" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1470:1589" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1653:2406" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1863:1979" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2133:2349" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2453:2824" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2529:2768" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2894:3401" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2970:3362" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="3088:3312" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="3432:3485" ph="{...}" />
+            <marker date="1525644745515" expanded="false" signature="6:143" ph="..." />
+            <marker date="1525644745515" expanded="true" signature="179:3554" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="234:3552" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="378:440" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="468:501" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="744:1137" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="895:1127" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
+            <marker date="1525644745515" expanded="true" signature="1182:1320" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1376:1472" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1531:1650" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1714:2467" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1924:2040" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2194:2410" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2514:2885" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2590:2829" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2955:3462" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3031:3423" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3149:3373" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3493:3546" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -550,6 +496,7 @@
         <state relative-caret-position="150">
           <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
+            <marker date="1525554273942" expanded="true" signature="69:350" ph="{...}" />
             <marker date="1525554273942" expanded="true" signature="112:348" ph="{...}" />
             <marker date="1525554273942" expanded="true" signature="322:342" ph="{...}" />
           </folding>
@@ -561,6 +508,159 @@
         <state relative-caret-position="150">
           <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
+            <marker date="1525554273891" expanded="true" signature="74:359" ph="{...}" />
+            <marker date="1525554273891" expanded="true" signature="118:357" ph="{...}" />
+            <marker date="1525554273891" expanded="true" signature="331:351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/SqlServerEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <marker date="1525554273860" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525554273860" expanded="true" signature="107:405" ph="{...}" />
+            <marker date="1525554273860" expanded="true" signature="154:403" ph="{...}" />
+            <marker date="1525554273860" expanded="true" signature="377:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonTableEnumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="41" column="28" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <marker date="1525552895711" expanded="false" signature="6:59" ph="..." />
+            <marker date="1525552895711" expanded="true" signature="157:1582" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="277:327" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="379:440" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="489:545" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="601:1576" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="810:923" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="959:1204" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="1237:1328" ph="{...}" />
+            <marker date="1525552895711" expanded="true" signature="1472:1566" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/SerializableDatabase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="25" column="122" lean-forward="false" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
+          <folding>
+            <marker date="1525552895415" expanded="false" signature="6:161" ph="..." />
+            <marker date="1525552895415" expanded="true" signature="238:2121" ph="{...}" />
+            <marker date="1525552895415" expanded="true" signature="421:493" ph="{...}" />
+            <marker date="1525552895415" expanded="true" signature="538:893" ph="{...}" />
+            <marker date="1525552895415" expanded="true" signature="955:1287" ph="{...}" />
+            <marker date="1525552895415" expanded="true" signature="1378:1965" ph="{...}" />
+            <marker date="1525552895415" expanded="true" signature="1663:1822" ph="{...}" />
+            <marker date="1525552895415" expanded="true" signature="1992:2115" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BeagleTestApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1525554450670" expanded="false" signature="6:115" ph="..." />
+            <marker date="1525554450670" expanded="true" signature="140:474" ph="{...}" />
+            <marker date="1525554450670" expanded="true" signature="160:472" ph="{...}" />
+            <marker date="1525554450670" expanded="true" signature="206:466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding>
+            <marker date="1525552895904" expanded="true" signature="6:73" ph="..." />
+            <marker date="1525552895904" expanded="true" signature="109:898" ph="{...}" />
+            <marker date="1525552895904" expanded="true" signature="164:896" ph="{...}" />
+            <marker date="1525552895904" expanded="true" signature="870:890" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <marker date="1525644713881" expanded="false" signature="6:125" ph="..." />
+            <marker date="1525644713881" expanded="true" signature="162:3805" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="216:3803" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="413:446" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="533:1135" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="991:1122" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="1249:1643" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="1676:1769" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="1871:2587" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="2443:2574" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="2632:2693" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="2826:2945" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3004:3299" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3363:3484" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3531:3595" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3638:3797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+          <folding>
+            <marker date="1525644745515" expanded="false" signature="6:143" ph="..." />
+            <marker date="1525644745515" expanded="true" signature="179:3554" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="234:3552" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="378:440" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="468:501" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="744:1137" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="895:1127" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
+            <marker date="1525644745515" expanded="true" signature="1182:1320" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1376:1472" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1531:1650" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1714:2467" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1924:2040" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2194:2410" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2514:2885" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2590:2829" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2955:3462" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3031:3423" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3149:3373" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3493:3546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/MySqlEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1525554273942" expanded="true" signature="69:350" ph="{...}" />
+            <marker date="1525554273942" expanded="true" signature="112:348" ph="{...}" />
+            <marker date="1525554273942" expanded="true" signature="322:342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/NpgsqlEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1525554273891" expanded="true" signature="74:359" ph="{...}" />
             <marker date="1525554273891" expanded="true" signature="118:357" ph="{...}" />
             <marker date="1525554273891" expanded="true" signature="331:351" ph="{...}" />
           </folding>
@@ -592,6 +692,7 @@
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <marker date="1525554273860" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525554273860" expanded="true" signature="107:405" ph="{...}" />
             <marker date="1525554273860" expanded="true" signature="154:403" ph="{...}" />
             <marker date="1525554273860" expanded="true" signature="377:397" ph="{...}" />
           </folding>
@@ -700,13 +801,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonRowEnumerable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="78" lean-forward="false" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/StorageConfig.cs" />
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonTableEnumerable.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -746,114 +840,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlConnector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding>
-            <marker date="1525552895904" expanded="true" signature="6:73" ph="..." />
-            <marker date="1525552895904" expanded="true" signature="164:896" ph="{...}" />
-            <marker date="1525552895904" expanded="true" signature="870:890" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageParameters.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/NpgsqlConnector.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <marker date="1525553499024" expanded="false" signature="6:125" ph="..." />
-            <marker date="1525553499024" expanded="true" signature="216:3726" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="456:1058" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="914:1045" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="1172:1566" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="1599:1692" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="1794:2510" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2366:2497" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2555:2616" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2749:2868" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="2927:3222" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="3286:3407" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="3454:3518" ph="{...}" />
-            <marker date="1525553499024" expanded="true" signature="3561:3720" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="39" lean-forward="false" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-          <folding>
-            <marker date="1525554116123" expanded="false" signature="6:143" ph="..." />
-            <marker date="1525554116123" expanded="true" signature="234:3491" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="378:440" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="683:1076" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="834:1066" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
-            <marker date="1525554116123" expanded="true" signature="1121:1259" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1315:1411" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1470:1589" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1653:2406" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="1863:1979" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2133:2349" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2453:2824" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2529:2768" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2894:3401" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="2970:3362" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="3088:3312" ph="{...}" />
-            <marker date="1525554116123" expanded="true" signature="3432:3485" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/MySqlEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1525554273942" expanded="true" signature="112:348" ph="{...}" />
-            <marker date="1525554273942" expanded="true" signature="322:342" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/NpgsqlEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <marker date="1525554273891" expanded="true" signature="118:357" ph="{...}" />
-            <marker date="1525554273891" expanded="true" signature="331:351" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/SqlServerEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1525554273860" expanded="false" signature="6:65" ph="..." />
-            <marker date="1525554273860" expanded="true" signature="154:403" ph="{...}" />
-            <marker date="1525554273860" expanded="true" signature="377:397" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -871,24 +863,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Ultz.BeagleFramework.csproj">
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageParameters.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
+          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <marker date="1525553504277" expanded="true" signature="59:317" ph="{...}" />
+            <marker date="1525553504277" expanded="true" signature="100:315" ph="{...}" />
+            <marker date="1525553504277" expanded="true" signature="235:309" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonRowEnumerable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="40" column="78" lean-forward="false" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding>
+            <marker date="1525552895299" expanded="false" signature="6:59" ph="..." />
+            <marker date="1525552895299" expanded="true" signature="96:1522" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="152:1520" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="254:304" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="353:414" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="463:519" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="572:1514" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="771:881" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="917:1148" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="1181:1272" ph="{...}" />
+            <marker date="1525552895299" expanded="true" signature="1413:1504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Json/JsonStorageEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1525644713881" expanded="false" signature="6:125" ph="..." />
+            <marker date="1525644713881" expanded="true" signature="162:3805" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="216:3803" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="413:446" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="533:1135" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="991:1122" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="1249:1643" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="1676:1769" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="1871:2587" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="2443:2574" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="2632:2693" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="2826:2945" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3004:3299" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3363:3484" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3531:3595" ph="{...}" />
+            <marker date="1525644713881" expanded="true" signature="3638:3797" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1525552895904" expanded="true" signature="6:73" ph="..." />
+            <marker date="1525552895904" expanded="true" signature="109:898" ph="{...}" />
+            <marker date="1525552895904" expanded="true" signature="164:896" ph="{...}" />
+            <marker date="1525552895904" expanded="true" signature="870:890" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BeagleTestApp/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="135">
+          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
           <folding>
             <marker date="1525554450670" expanded="false" signature="6:115" ph="..." />
             <marker date="1525554450670" expanded="true" signature="140:474" ph="{...}" />
             <marker date="1525554450670" expanded="true" signature="160:472" ph="{...}" />
             <marker date="1525554450670" expanded="true" signature="206:466" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/MySqlEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1525554273942" expanded="true" signature="69:350" ph="{...}" />
+            <marker date="1525554273942" expanded="true" signature="112:348" ph="{...}" />
+            <marker date="1525554273942" expanded="true" signature="322:342" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/NpgsqlEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <marker date="1525554273891" expanded="true" signature="74:359" ph="{...}" />
+            <marker date="1525554273891" expanded="true" signature="118:357" ph="{...}" />
+            <marker date="1525554273891" expanded="true" signature="331:351" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/SqlServerEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1525554273860" expanded="false" signature="6:65" ph="..." />
+            <marker date="1525554273860" expanded="true" signature="107:405" ph="{...}" />
+            <marker date="1525554273860" expanded="true" signature="154:403" ph="{...}" />
+            <marker date="1525554273860" expanded="true" signature="377:397" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Sql/SqlEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <marker date="1525644745515" expanded="false" signature="6:143" ph="..." />
+            <marker date="1525644745515" expanded="true" signature="179:3554" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="234:3552" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="378:440" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="468:501" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="744:1137" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="895:1127" ph="/* foreach (DataRow row in Connector.Connection.GetSchema(&quot;Tables&quot;).Rows) ... */" />
+            <marker date="1525644745515" expanded="true" signature="1182:1320" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1376:1472" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1531:1650" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1714:2467" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="1924:2040" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2194:2410" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2514:2885" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2590:2829" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="2955:3462" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3031:3423" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3149:3373" ph="{...}" />
+            <marker date="1525644745515" expanded="true" signature="3493:3546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework/Ultz.BeagleFramework.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.MySql/Ultz.BeagleFramework.MySql.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.Npgsql/Ultz.BeagleFramework.Npgsql.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultz.BeagleFramework.SqlServer/Ultz.BeagleFramework.SqlServer.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
