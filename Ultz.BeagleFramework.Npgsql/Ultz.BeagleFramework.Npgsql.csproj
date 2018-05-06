@@ -1,6 +1,19 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.1</Version>
+    <Authors>Ultz</Authors>
+    <Company>Ultz Limited</Company>
+    <Product>Beagle Framework</Product>
+    <Description>Beagle Framework is a database access technology for C#, extracted from Ultz Online for public use. This package binds Beagle to PostgreSQL</Description>
+    <PackageLicenseUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle/browse/LICENSE.MD</PackageLicenseUrl>
+    <PackageProjectUrl>https://hub.ultz.co.uk/code/projects/BF/</PackageProjectUrl>
+    <PackageIconUrl>https://ultz.co.uk/Beagle.png</PackageIconUrl>
+    <RepositoryUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageReleaseNotes>Whoops, we released it as a .NET Core library. We've fixed the issue, and Beagle should now be compatible with all .NET Standard 2.X platforms.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ultz.BeagleFramework\Ultz.BeagleFramework.csproj" />

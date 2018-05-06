@@ -45,7 +45,7 @@
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netstandard2.0" t="Include">
               <e p="Ultz.BeagleFramework.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -66,7 +66,7 @@
         <e p="MySqlEngine.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netstandard2.0" t="Include">
               <e p="Ultz.BeagleFramework.MySql.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -79,7 +79,7 @@
         <e p="NpgsqlEngine.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netstandard2.0" t="Include">
               <e p="Ultz.BeagleFramework.Npgsql.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -91,7 +91,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
+            <e p="netstandard2.0" t="Include">
               <e p="Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs" t="Include" />
             </e>
           </e>

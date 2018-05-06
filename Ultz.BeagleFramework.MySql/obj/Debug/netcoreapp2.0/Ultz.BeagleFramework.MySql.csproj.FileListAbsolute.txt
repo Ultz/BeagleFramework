@@ -8,3 +8,4 @@ C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.Be
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.AssemblyInfo.cs
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.dll
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.MySql\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.MySql.csprojResolveAssemblyReference.cache

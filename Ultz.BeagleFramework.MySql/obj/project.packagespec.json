@@ -11,10 +11,10 @@
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
-      "netcoreapp2.0"
+      "netstandard2.0"
     ],
     "frameworks": {
-      "netcoreapp2.0": {
+      "netstandard2.0": {
         "projectReferences": {
           "C:\\Users\\Dylan Perks\\Documents\\_Important Documents\\Ultz.BeagleFramework\\Ultz.BeagleFramework\\Ultz.BeagleFramework.csproj": {
             "projectPath": "C:\\Users\\Dylan Perks\\Documents\\_Important Documents\\Ultz.BeagleFramework\\Ultz.BeagleFramework\\Ultz.BeagleFramework.csproj"
@@ -29,17 +29,17 @@
     }
   },
   "frameworks": {
-    "netcoreapp2.0": {
+    "netstandard2.0": {
       "dependencies": {
-        "Microsoft.NETCore.App": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.0.0, )",
-          "autoReferenced": true
-        },
         "MySql.Data": {
           "target": "Package",
           "version": "[8.0.11, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.1, )",
+          "autoReferenced": true
         }
       },
       "imports": [

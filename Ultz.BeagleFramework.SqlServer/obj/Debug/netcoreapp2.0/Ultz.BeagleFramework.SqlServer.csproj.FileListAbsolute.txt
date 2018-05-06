@@ -8,3 +8,4 @@ C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.Be
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.SqlServer.dll
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.SqlServer.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.SqlServer.csprojResolveAssemblyReference.cache

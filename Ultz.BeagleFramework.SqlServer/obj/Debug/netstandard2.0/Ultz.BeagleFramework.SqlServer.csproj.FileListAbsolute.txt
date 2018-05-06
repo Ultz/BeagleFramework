@@ -1,0 +1,11 @@
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.deps.json
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\bin\Debug\netstandard2.0\Ultz.BeagleFramework.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\bin\Debug\netstandard2.0\Ultz.BeagleFramework.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.csprojResolveAssemblyReference.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.AssemblyInfoInputs.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.AssemblyInfo.cs
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SqlServer\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SqlServer.pdb
