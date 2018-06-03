@@ -33,14 +33,14 @@ namespace Ultz.BeagleFramework.SqlServer
             return new SqlCommand(query,(SqlConnection)connection);
         }
 
-        public override DbDataAdapter CreateAdapter(string query,DbConnection connection)
-        {
-            return new SqlDataAdapter(query,(SqlConnection)connection);
-        }
-
         public override DbParameter CreateParameter(string name)
         {
             return new SqlParameter("@"+name,SqlDbType.VarChar,-1,name);
+        }
+
+        public override DbDataAdapter CreateAdapter(string cmd, DbConnection conn)
+        {
+            return new SqlDataAdapter(cmd,(SqlConnection)conn);
         }
 
         public override DbParameter CreateIntParameter(string name)
@@ -48,16 +48,9 @@ namespace Ultz.BeagleFramework.SqlServer
             return new SqlParameter("@"+name,SqlDbType.Int,-1,name);
         }
 
-        public override IEnumerable<string> GetTables(DbConnection connection)
-        {
-            foreach (DataRow row in connection.GetSchema("Tables").Rows)
-            {
-                var tablename = ((string)row[2]).ToUpper();
-                yield return tablename;
-            }
-        }
-
         public override string VarCharMax => "varchar(max)";
+        public override string Int => "int";
+
         public override string ProcessMessage(string s)
         {
             return s;

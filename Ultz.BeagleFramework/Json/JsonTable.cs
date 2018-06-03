@@ -37,6 +37,11 @@ namespace Ultz.BeagleFramework.Json
 
         public Row Put(IEnumerable<string> row)
         {
+            return Add(row);
+        }
+
+        public Row Add(IEnumerable<string> row)
+        {
             var enumerable = row.ToList();
             Get().AddRow(enumerable).Set();
             return new JsonRow(Get(), Get().Rows.IndexOf(enumerable), _engine);
@@ -50,6 +55,11 @@ namespace Ultz.BeagleFramework.Json
         public void Remove(int row)
         {
             Get().RemoveRow(row).Set();
+        }
+
+        public void Refresh()
+        {
+            
         }
 
         public SerializableTable Get()

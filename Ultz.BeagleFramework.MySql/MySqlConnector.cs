@@ -31,15 +31,16 @@ namespace Ultz.BeagleFramework.MySql
         {
             return new MySqlCommand(query,(MySqlConnection)connection);
         }
-
-        public override DbDataAdapter CreateAdapter(string query,DbConnection connection)
-        {
-            return new MySqlDataAdapter(query,(MySqlConnection)connection);
-        }
+        
 
         public override DbParameter CreateParameter(string name)
         {
             return new MySqlParameter("@"+name,MySqlDbType.String,-1,name);
+        }
+
+        public override DbDataAdapter CreateAdapter(string cmd,DbConnection conn)
+        {
+            return new MySqlDataAdapter(cmd,(MySqlConnection)conn);
         }
 
         public override DbParameter CreateIntParameter(string name)
@@ -47,19 +48,9 @@ namespace Ultz.BeagleFramework.MySql
             return new MySqlParameter("@"+name,MySqlDbType.Int32,-1,name);
         }
 
-        public override IEnumerable<string> GetTables(DbConnection connection)
-        {
-            using (var reader = CreateCommand("SHOW TABLES", connection).ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    for (var i = 0; i < reader.FieldCount; i++)
-                        yield return reader.GetValue(i).ToString();
-                }
-            }
-        }
-
         public override string VarCharMax => "LONGTEXT";
+        public override string Int => "int";
+
         public override string ProcessMessage(string s)
         {
             return s;

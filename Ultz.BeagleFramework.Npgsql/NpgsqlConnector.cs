@@ -31,15 +31,16 @@ namespace Ultz.BeagleFramework.PostgreSql
         {
             return new NpgsqlCommand(query,(NpgsqlConnection)connection);
         }
-
-        public override DbDataAdapter CreateAdapter(string query,DbConnection connection)
-        {
-            return new NpgsqlDataAdapter(query,(NpgsqlConnection)connection);
-        }
+        
 
         public override DbParameter CreateParameter(string name)
         {
             return new NpgsqlParameter("@" + name, NpgsqlDbType.Varchar, -1, name);
+        }
+
+        public override DbDataAdapter CreateAdapter(string cmd, DbConnection conn)
+        {
+            return new NpgsqlDataAdapter(cmd,(NpgsqlConnection)conn);
         }
 
         public override DbParameter CreateIntParameter(string name)
@@ -47,17 +48,7 @@ namespace Ultz.BeagleFramework.PostgreSql
             return new NpgsqlParameter("@" + name, NpgsqlDbType.Integer, -1, name);
         }
 
-        public override IEnumerable<string> GetTables(DbConnection connection)
-        {
-            using (var reader = CreateCommand("SELECT table_name FROM information_schema.tables WHERE table_schema='public' AND table_type='BASE TABLE';", connection).ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    for (var i = 0; i < reader.FieldCount; i++)
-                        yield return reader.GetValue(i).ToString();
-                }
-            }
-        }
+        public override string Int => "int";
 
         public override string ProcessMessage(string s)
         {

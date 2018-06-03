@@ -4,7 +4,6 @@
     {
         public Column Column { get; }
         public Row Row { get; }
-        private readonly Row _row;
 
         public Cell(Column col, Row row)
         {

@@ -38,7 +38,6 @@
           <e p="JsonStorageEngine.cs" t="Include" />
           <e p="JsonStorageParameters.cs" t="Include" />
           <e p="JsonTable.cs" t="Include" />
-          <e p="JsonTableEnumerable.cs" t="Include" />
           <e p="SerializableDatabase.cs" t="Include" />
           <e p="SerializableDatabaseEntry.cs" t="Include" />
           <e p="SerializableTable.cs" t="Include" />
@@ -87,6 +86,20 @@
         <e p="Ultz.BeagleFramework.Npgsql.csproj" t="IncludeRecursive" />
       </e>
       <e p="Ultz.BeagleFramework.sln" t="IncludeFlat" />
+      <e p="Ultz.BeagleFramework.SQLite" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="Ultz.BeagleFramework.SQLite.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="SqliteConnector.cs" t="Include" />
+        <e p="SqliteDataAdapter.cs" t="Include" />
+        <e p="SqliteEngine.cs" t="Include" />
+        <e p="Ultz.BeagleFramework.SQLite.csproj" t="IncludeRecursive" />
+      </e>
       <e p="Ultz.BeagleFramework.SqlServer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

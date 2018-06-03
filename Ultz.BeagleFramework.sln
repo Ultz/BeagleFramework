@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.MySql"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeagleTestApp", "BeagleTestApp\BeagleTestApp.csproj", "{8A2B2E05-A78D-44D5-8504-AC536F4EABF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.SQLite", "Ultz.BeagleFramework.SQLite\Ultz.BeagleFramework.SQLite.csproj", "{9267B5FD-5628-48E8-8820-C2DBCF2D56D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{8A2B2E05-A78D-44D5-8504-AC536F4EABF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A2B2E05-A78D-44D5-8504-AC536F4EABF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A2B2E05-A78D-44D5-8504-AC536F4EABF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9267B5FD-5628-48E8-8820-C2DBCF2D56D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9267B5FD-5628-48E8-8820-C2DBCF2D56D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9267B5FD-5628-48E8-8820-C2DBCF2D56D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9267B5FD-5628-48E8-8820-C2DBCF2D56D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

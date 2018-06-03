@@ -12,15 +12,26 @@ namespace Ultz.BeagleFramework.Sql
         internal DataTable _table;
         internal DbDataAdapter _adapter;
         internal DbConnection _connection;
+        internal SqlConnector _connector;
         private IStorageEngine _engine;
         public SqlTable(string name,SqlConnector connector, IStorageEngine engine)
         {
             _table = new DataTable {TableName = name.ToUpper()};
-            _connection = connector.CreateConnection();
-            _adapter = connector.CreateAdapter(connector.ProcessMessage("SELECT * FROM `" + name.ToUpper()+"`"),_connection);
+            _connector = connector;
+            _connection = _connector.CreateConnection();
+            _adapter = _connector.CreateAdapter(connector.ProcessMessage("SELECT * FROM `" + name.ToUpper()+"`"),_connection);
             _adapter.Fill(_table);
+            //foreach (DataColumn tableColumn in _table.Columns)
+            //{
+            //    tableColumn.DataType = tableColumn.ColumnName == "onultz_id" ? typeof(int) : typeof(string);
+            //}
             _table.PrimaryKey = new[]{_table.Columns["onultz_id"]};
             _engine = engine;
+        }
+
+        public DataTable GetDataTable()
+        {
+            return _table;
         }
 
         public Row this[int index] => Rows.ToList().ElementAt(index);
@@ -75,15 +86,20 @@ namespace Ultz.BeagleFramework.Sql
 
         public Row Put(IEnumerable<string> row)
         {
+            return Add(row);
+        }
+
+        public Row Add(IEnumerable<string> row)
+        {
             var enumerable = row.ToList();
             if (enumerable.Count() != Columns.Length)
-                throw new ArgumentException("The amount of fields in the row doesn't match the amount provided in the schema. Got: "+enumerable.Count()+", Expected: "+Columns.Count());
+                throw new ArgumentException("The amount of fields in the row doesn't match the amount provided in the schema. Got: " + enumerable.Count() + ", Expected: " + Columns.Count());
             var workRow = _table.NewRow();
             workRow[0] = GetId();
-            for (var i = 0; i < Columns.Length; i++)   
-            {  
-                workRow[i + 1] = enumerable.ElementAt(i);  
-            }  
+            for (var i = 0; i < Columns.Length; i++)
+            {
+                workRow[i + 1] = enumerable.ElementAt(i);
+            }
             _table.Rows.Add(workRow);
             CreateCommands();
             _adapter.Update(_table);
@@ -99,7 +115,21 @@ namespace Ultz.BeagleFramework.Sql
         {
             Remove(this[row]);
         }
-        
+
+        public void Refresh()
+        {
+            _table = new DataTable {TableName = Name.ToUpper()};
+            _connection = _connector.CreateConnection();
+            _adapter = _connector.CreateAdapter(_connector.ProcessMessage("SELECT * FROM `" + Name.ToUpper()+"`"),_connection);
+            _adapter.Fill(_table);
+
+            //foreach (DataColumn tableColumn in _table.Columns)
+            //{
+            //    tableColumn.DataType = tableColumn.ColumnName == "onultz_id" ? typeof(int) : typeof(string);
+            //}
+            _table.PrimaryKey = new[]{_table.Columns["onultz_id"]};
+        }
+
         public IEnumerator<Row> GetEnumerator()
         {
             return Rows.GetEnumerator();

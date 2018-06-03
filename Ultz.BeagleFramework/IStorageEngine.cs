@@ -6,7 +6,6 @@ namespace Ultz.BeagleFramework
     public interface IStorageEngine : IDisposable
     {
         string Id { get; }
-        IEnumerable<ITable> Tables { get; }
         void Initialize(string initializationParameters);
         ITable GetTable(string name);
         Column GetColumn(string table, int col);

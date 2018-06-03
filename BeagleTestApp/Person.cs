@@ -2,10 +2,20 @@
 
 namespace BeagleTestApp
 {
-    [Model]
-    public class Person
+    public class MyDatabase : DataStore
     {
-        [Column("name")]
+        public Table<Person> People { get; set; }
+        public Table<Friend> Friends { get; set; }
+    }
+
+    public class Person : DataModel
+    {
+        public string Name { get; set; }
+    }
+
+    public class Friend : DataModel
+    {
+        public string FriendName { get; set; }
         public string Name { get; set; }
     }
 }

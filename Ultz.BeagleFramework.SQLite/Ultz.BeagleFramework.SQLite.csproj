@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.1.0</Version>
+    <Authors>Ultz</Authors>
+    <Company>Ultz Limited</Company>
+    <Product>Beagle Framework</Product>
+    <PackageReleaseNotes>For the complete release announcement, see this blog post: https://confluence.ultz.co.uk/products/beagle/blog/2018/05/announcing-beagle-framework-1-1</PackageReleaseNotes>
+    <Description>Beagle Framework is a database access technology for C#, extracted from Ultz Online for public use. This package binds Beagle to SQLite</Description>
+    <PackageLicenseUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle/browse/LICENSE.MD</PackageLicenseUrl>
+    <PackageProjectUrl>https://hub.ultz.co.uk/code/projects/BF/</PackageProjectUrl>
+    <PackageIconUrl>https://ultz.co.uk/Beagle.png</PackageIconUrl>
+    <RepositoryUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ultz.BeagleFramework\Ultz.BeagleFramework.csproj">
+      <Project>{A8CDDB11-F6D1-41B8-9B30-F532C78F13A1}</Project>
+      <Name>Ultz.BeagleFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="2.1.0" />
+  </ItemGroup>
+</Project>

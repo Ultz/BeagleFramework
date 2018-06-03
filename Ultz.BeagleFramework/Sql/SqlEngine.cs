@@ -9,25 +9,16 @@ namespace Ultz.BeagleFramework.Sql
 {
     public abstract class SqlEngine : IStorageEngine
     {
-        private Dictionary<string, ITable> _tables = new Dictionary<string, ITable>();
-
-        public SqlEngine(string connectionString)
+        protected SqlEngine(string connectionString)
         {
             Initialize(connectionString);
         }
 
-        public SqlEngine()
-        {
-            
-        }
-
         public abstract string Id { get; }
         public abstract SqlConnector Connector { get; }
-        public IEnumerable<ITable> Tables => GetTables().Select(x => x.Value);
         public void Initialize(string initializationParameters)
         {
             Connector.Init(initializationParameters);
-            _tables = GetTables().ToDictionary(x => x.Key, x => x.Value);
             /*foreach (DataRow row in Connector.Connection.GetSchema("Tables").Rows)
             {
                 var tablename = ((string)row[2]).ToUpper();
@@ -37,7 +28,14 @@ namespace Ultz.BeagleFramework.Sql
 
         public ITable GetTable(string name)
         {
-            return _tables.ContainsKey(name.ToUpper()) ? _tables[name.ToUpper()] : new SqlTable(name,Connector,this);
+            try
+            {
+                return new SqlTable(name, Connector, this);
+            }
+            catch
+            {
+                return null;
+            }
         }
 
         public Column GetColumn(string table, int col)
@@ -54,7 +52,7 @@ namespace Ultz.BeagleFramework.Sql
         {
             var sb = new StringBuilder();
             sb.AppendLine("CREATE TABLE `" + table.ToUpper() + "` (");
-            sb.AppendLine("    onultz_id int,");
+            sb.AppendLine("    onultz_id "+Connector.Int+",");
             foreach (var col in cols)
             {
                 sb.AppendLine("    `" + col.ToUpper() + "` "+Connector.VarCharMax+",");
@@ -65,7 +63,8 @@ namespace Ultz.BeagleFramework.Sql
             using (var connection = Connector.CreateConnection())
             {
                 connection.Open();
-                Connector.CreateCommand(Connector.ProcessMessage(sb.ToString()),connection).ExecuteReader().Close();
+                var msg = Connector.ProcessMessage(sb.ToString());
+                Connector.CreateCommand(msg,connection).ExecuteReader().Close();
                 connection.Close();
             }
 
@@ -80,25 +79,6 @@ namespace Ultz.BeagleFramework.Sql
                 Connector.CreateCommand(Connector.ProcessMessage("DROP TABLE `" + table.ToUpper()+"`"),connection).ExecuteReader().Close();
                 connection.Close();
             }
-
-            _tables.Remove(table.ToUpper());
-        }
-
-        private IEnumerable<KeyValuePair<string,ITable>> GetTables()
-        {
-            using (var connection = Connector.CreateConnection())
-            {
-                connection.Open();
-                foreach (var tbl in Connector.GetTables(connection))
-                {
-                    var tablename = tbl.ToUpper();
-                    if (!_tables.ContainsKey(tablename))
-                        _tables.Add(tablename, (SqlTable) GetTable(tablename));
-                }
-                connection.Close();
-            }
-
-            return _tables;
         }
 
         public void Dispose()

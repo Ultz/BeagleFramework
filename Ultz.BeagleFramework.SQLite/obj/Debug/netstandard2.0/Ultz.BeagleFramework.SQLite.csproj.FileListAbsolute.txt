@@ -1,0 +1,11 @@
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.deps.json
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\bin\Debug\netstandard2.0\Ultz.BeagleFramework.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\bin\Debug\netstandard2.0\Ultz.BeagleFramework.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.csproj.CoreCompileInputs.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.AssemblyInfoInputs.cache
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.AssemblyInfo.cs
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\obj\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.csprojResolveAssemblyReference.cache

@@ -79,8 +79,6 @@ namespace Ultz.BeagleFramework.Json
             return Get().GetTable(name);
         }
 
-        public IEnumerable<ITable> Tables => new JsonTableEnumerable(this);
-
         public Column GetColumn(string table, int col)
         {
             var tbl = Get().GetTable(table);

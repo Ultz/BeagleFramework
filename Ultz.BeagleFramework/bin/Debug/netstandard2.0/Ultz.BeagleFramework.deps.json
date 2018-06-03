@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "Ultz.BeagleFramework/1.0.1.1": {
+      "Ultz.BeagleFramework/1.1.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
           "Newtonsoft.Json": "11.0.2"
@@ -30,7 +30,7 @@
     }
   },
   "libraries": {
-    "Ultz.BeagleFramework/1.0.1.1": {
+    "Ultz.BeagleFramework/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

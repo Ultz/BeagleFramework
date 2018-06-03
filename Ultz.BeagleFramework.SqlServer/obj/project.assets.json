@@ -316,7 +316,7 @@
           "ref/netstandard1.3/_._": {}
         }
       },
-      "Ultz.BeagleFramework/1.0.1.1": {
+      "Ultz.BeagleFramework/1.1.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1623,7 +1623,7 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "Ultz.BeagleFramework/1.0.1.1": {
+    "Ultz.BeagleFramework/1.1.0": {
       "type": "project",
       "path": "../Ultz.BeagleFramework/Ultz.BeagleFramework.csproj",
       "msbuildProject": "../Ultz.BeagleFramework/Ultz.BeagleFramework.csproj"
@@ -1633,7 +1633,7 @@
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
       "System.Data.SqlClient >= 4.4.3",
-      "Ultz.BeagleFramework >= 1.0.1.1"
+      "Ultz.BeagleFramework >= 1.1.0"
     ]
   },
   "packageFolders": {
@@ -1642,7 +1642,10 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.1.1",
+    "version": "1.1.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "C:\\Users\\Dylan Perks\\Documents\\_Important Documents\\Ultz.BeagleFramework\\Ultz.BeagleFramework.SqlServer\\Ultz.BeagleFramework.SqlServer.csproj",
       "projectName": "Ultz.BeagleFramework.SqlServer",

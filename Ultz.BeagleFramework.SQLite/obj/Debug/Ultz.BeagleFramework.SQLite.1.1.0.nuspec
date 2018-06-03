@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ultz.BeagleFramework.SQLite</id>
+    <version>1.1.0</version>
+    <authors>Ultz</authors>
+    <owners>Ultz</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle/browse/LICENSE.MD</licenseUrl>
+    <projectUrl>https://hub.ultz.co.uk/code/projects/BF/</projectUrl>
+    <iconUrl>https://ultz.co.uk/Beagle.png</iconUrl>
+    <description>Beagle Framework is a database access technology for C#, extracted from Ultz Online for public use. This package binds Beagle to SQLite</description>
+    <releaseNotes>For the complete release announcement, see this blog post: https://confluence.ultz.co.uk/products/beagle/blog/2018/05/announcing-beagle-framework-1-1</releaseNotes>
+    <repository type="Git" url="https://hub.ultz.co.uk/code/projects/BF/repos/beagle" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Ultz.BeagleFramework" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Data.Sqlite" version="2.1.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework.SQLite\bin\Debug\netstandard2.0\Ultz.BeagleFramework.SQLite.dll" target="lib\netstandard2.0\Ultz.BeagleFramework.SQLite.dll" />
+  </files>
+</package>

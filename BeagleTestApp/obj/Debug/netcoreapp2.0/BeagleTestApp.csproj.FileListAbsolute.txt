@@ -16,3 +16,6 @@ C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleT
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleTestApp\obj\Debug\netcoreapp2.0\BeagleTestApp.AssemblyInfo.cs
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleTestApp\obj\Debug\netcoreapp2.0\BeagleTestApp.dll
 C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleTestApp\obj\Debug\netcoreapp2.0\BeagleTestApp.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleTestApp\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.SQLite.dll
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleTestApp\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.SQLite.pdb
+C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\BeagleTestApp\obj\Debug\netcoreapp2.0\BeagleTestApp.csprojResolveAssemblyReference.cache

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.0.1.1</Version>
+    <Version>1.1.0</Version>
     <Authors>Ultz</Authors>
     <Company>Ultz Limited</Company>
     <Product>Beagle Framework</Product>
@@ -11,9 +11,9 @@
     <PackageIconUrl>https://ultz.co.uk/Beagle.png</PackageIconUrl>
     <RepositoryUrl>https://hub.ultz.co.uk/code/projects/BF/repos/beagle</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <PackageReleaseNotes>Whoops, we released it as a .NET Core library. We've fixed the issue, and Beagle should now be compatible with all .NET Standard 2.X platforms.</PackageReleaseNotes>
-    <AssemblyVersion>1.0.1.1</AssemblyVersion>
-    <FileVersion>1.0.1.1</FileVersion>
+    <PackageReleaseNotes>For the complete release announcement, see this blog post: https://confluence.ultz.co.uk/products/beagle/blog/2018/05/announcing-beagle-framework-1-1</PackageReleaseNotes>
+    <AssemblyVersion>1.1.0.0</AssemblyVersion>
+    <FileVersion>1.1.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Ultz.BeagleFramework\Ultz.BeagleFramework.csproj" />
