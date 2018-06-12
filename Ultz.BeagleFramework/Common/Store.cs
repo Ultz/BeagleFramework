@@ -47,7 +47,9 @@ namespace Ultz.BeagleFramework.Common
                JsonConvert.SerializeObject(columns.Values.FirstOrDefault(y =>
                         y.Name.ToNamePreservation() == x)
                     .GetValue(obj)));
-            return table.Add(values);
+            var ret = table.Add(values);
+            obj.Row = ret;
+            return ret;
         }
         public static Row Put(this ITable table,object obj)
         {
@@ -94,6 +96,7 @@ namespace Ultz.BeagleFramework.Common
                         x.Name.ToNamePreservation(),
                     x => x);
             var instance = Activator.CreateInstance<T>();
+            instance.Row = row;
             foreach (var col in columns)
             {
                 col.Value.SetValue(instance,

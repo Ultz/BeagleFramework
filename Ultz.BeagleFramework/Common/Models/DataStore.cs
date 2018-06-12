@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Ultz.BeagleFramework.Common.Models
 {
-    public abstract class DataStore : IEnumerable<Table>
+    public abstract class DataStore : IEnumerable<Table>, IDataContainer
     {
 
         private IStorageEngine _engine;
@@ -15,31 +15,39 @@ namespace Ultz.BeagleFramework.Common.Models
         {
             _engine = store.Engine;
         }
-
-        public Dictionary<string,Table> GetTables()
-        {
-            return GetType().GetProperties().Where(x => x.PropertyType.IsAssignableToGenericType(typeof(Table<>)))
-                .ToDictionary(x => x.Name, x => (Table) x.GetValue(this));
-        }
-        
+        /// <summary>
+        /// Initializes this <see cref="DataStore"/>
+        /// </summary>
         public void Fill()
         {
             // iterates through all types that are Table<>
             foreach (var x in GetType().GetProperties().Where(x => x.PropertyType.IsAssignableToGenericType(typeof(Table<>))))
             {
-                Console.WriteLine("Initiating "+x.Name);
                 x.SetValue(this,Activator.CreateInstance(x.PropertyType,_engine.GetTable(x.Name.ToNamePreservation()) ?? _engine.CreateTable(x.Name.ToNamePreservation(),x.PropertyType.GenericTypeArguments.First())));
             }
         }
 
+        /// <inheritdoc />
         public IEnumerator<Table> GetEnumerator()
         {
-            return GetTables().Values.GetEnumerator();
+            return GetType().GetProperties().Where(x => x.PropertyType.IsAssignableToGenericType(typeof(Table<>))).Select(x => (Table)x.GetValue(this)).GetEnumerator();
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
+        }
+
+        /// <inheritdoc />
+        public void SaveChanges()
+        {
+            
+        }
+
+        /// <inheritdoc />
+        public void Refresh()
+        {
+            Fill();
         }
     }
 }

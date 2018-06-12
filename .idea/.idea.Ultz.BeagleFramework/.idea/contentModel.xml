@@ -15,18 +15,27 @@
         </e>
         <e p="Person.cs" t="Include" />
         <e p="Program.cs" t="Include" />
+        <e p="test.db" t="Include" />
+        <e p="test2.db" t="Include" />
+        <e p="test3.db" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Ultz.BeagleFramework" t="IncludeRecursive">
+        <e p="Beagle.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Cell.cs" t="Include" />
         <e p="Column.cs" t="Include" />
         <e p="Common" t="Include">
+          <e p="Engine.cs" t="Include" />
           <e p="Exceptions.cs" t="Include" />
           <e p="Models" t="Include">
             <e p="ColumnAttribute.cs" t="Include" />
+            <e p="DataContext.cs" t="Include" />
+            <e p="DataModel.cs" t="Include" />
+            <e p="DataStore.cs" t="Include" />
+            <e p="DataTable.cs" t="Include" />
+            <e p="IDataContainer.cs" t="Include" />
             <e p="ModelAttribute.cs" t="Include" />
-            <e p="ModelRowEnumerable.cs" t="Include" />
           </e>
           <e p="Store.cs" t="Include" />
         </e>
@@ -98,6 +107,7 @@
         <e p="SqliteConnector.cs" t="Include" />
         <e p="SqliteDataAdapter.cs" t="Include" />
         <e p="SqliteEngine.cs" t="Include" />
+        <e p="SqliteTable.cs" t="Include" />
         <e p="Ultz.BeagleFramework.SQLite.csproj" t="IncludeRecursive" />
       </e>
       <e p="Ultz.BeagleFramework.SqlServer" t="IncludeRecursive">

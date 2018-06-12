@@ -24,12 +24,12 @@
             return _row;
         }
 
-        internal override string GetValue(int col)
+        protected internal override string GetValue(int col)
         {
             return _table.Rows[_row][col];
         }
 
-        internal override void SetValue(int col, string val)
+        protected internal override void SetValue(int col, string val)
         {
             _table.Rows[_row][col] = val;
         }

@@ -26,12 +26,12 @@ namespace Ultz.BeagleFramework.Sql
             return _parent._table.Rows.IndexOf(_row);
         }
 
-        internal override string GetValue(int col)
+        protected internal override string GetValue(int col)
         {
             return (string)_row[col+1];
         }
 
-        internal override void SetValue(int col, string val)
+        protected internal override void SetValue(int col, string val)
         {
             _row.BeginEdit();
             _row[col] = val;
