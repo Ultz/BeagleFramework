@@ -32,6 +32,7 @@
         protected internal override void SetValue(int col, string val)
         {
             _table.Rows[_row][col] = val;
+            _table.Set();
         }
     }
 }
