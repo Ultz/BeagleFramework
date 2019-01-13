@@ -88,7 +88,7 @@ namespace Ultz.BeagleFramework.Json
         public Column GetColumn(string table, string col)
         {
             var tbl = Get().GetTable(table);
-            if (!tbl.Columns.Contains(table))
+            if (!tbl.Columns.Contains(col))
                 throw new ArgumentException("Column not found: " + table + ", " + col, "col");
             return new Column(Array.IndexOf(tbl.Columns, col.ToUpper()), col.ToUpper());
         }
