@@ -1,114 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Dylan Perks\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_Ultz.BeagleFramework.-1811876769.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework" t="IncludeFlat">
-      <e p="BeagleTestApp" t="IncludeRecursive">
-        <e p="BeagleTestApp.csproj" t="IncludeRecursive" />
+    <e p="C:\Users\perks\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\perks\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Ultz.BeagleFramework.250849632.00" t="ExcludeRecursive" />
+    <e p="E:\14) Beagle Framework" t="IncludeFlat">
+      <e p="DemoOne" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="DemoOne.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp2.0" t="Include">
-              <e p="BeagleTestApp.AssemblyInfo.cs" t="Include" />
+            <e p="netcoreapp3.0" t="Include">
+              <e p="DemoOne.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Person.cs" t="Include" />
         <e p="Program.cs" t="Include" />
-        <e p="test.db" t="Include" />
-        <e p="test2.db" t="Include" />
-        <e p="test3.db" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="Ultz.BeagleFramework" t="IncludeRecursive">
-        <e p="Beagle.cs" t="Include" />
+      <e p="Ultz.BeagleFramework.Core" t="IncludeRecursive">
+        <e p="BeagleContext.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Cell.cs" t="Include" />
+        <e p="Clause.cs" t="Include" />
         <e p="Column.cs" t="Include" />
-        <e p="Common" t="Include">
-          <e p="Engine.cs" t="Include" />
-          <e p="Exceptions.cs" t="Include" />
-          <e p="Models" t="Include">
-            <e p="ColumnAttribute.cs" t="Include" />
-            <e p="DataContext.cs" t="Include" />
-            <e p="DataModel.cs" t="Include" />
-            <e p="DataStore.cs" t="Include" />
-            <e p="DataTable.cs" t="Include" />
-            <e p="IDataContainer.cs" t="Include" />
-            <e p="ModelAttribute.cs" t="Include" />
-          </e>
-          <e p="Store.cs" t="Include" />
-        </e>
+        <e p="Constraint.cs" t="Include" />
+        <e p="DataType.cs" t="Include" />
+        <e p="Field.cs" t="Include" />
+        <e p="IQuery.cs" t="Include" />
         <e p="IStorageEngine.cs" t="Include" />
-        <e p="ITable.cs" t="Include" />
-        <e p="Json" t="Include">
-          <e p="JsonRow.cs" t="Include" />
-          <e p="JsonRowEnumerable.cs" t="Include" />
-          <e p="JsonStorageEngine.cs" t="Include" />
-          <e p="JsonStorageParameters.cs" t="Include" />
-          <e p="JsonTable.cs" t="Include" />
-          <e p="SerializableDatabase.cs" t="Include" />
-          <e p="SerializableDatabaseEntry.cs" t="Include" />
-          <e p="SerializableTable.cs" t="Include" />
-        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
-              <e p="Ultz.BeagleFramework.AssemblyInfo.cs" t="Include" />
+              <e p="Ultz.BeagleFramework.Core.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="Query.cs" t="Include" />
+        <e p="QueryBuilder.cs" t="Include" />
         <e p="Row.cs" t="Include" />
-        <e p="Sql" t="Include">
-          <e p="SqlConnector.cs" t="Include" />
-          <e p="SqlEngine.cs" t="Include" />
-          <e p="SqlRow.cs" t="Include" />
-          <e p="SqlTable.Commands.cs" t="Include" />
-          <e p="SqlTable.cs" t="Include" />
-        </e>
-        <e p="Ultz.BeagleFramework.csproj" t="IncludeRecursive" />
-      </e>
-      <e p="Ultz.BeagleFramework.MySql" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="MySqlConnector.cs" t="Include" />
-        <e p="MySqlEngine.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.0" t="Include">
-              <e p="Ultz.BeagleFramework.MySql.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Ultz.BeagleFramework.MySql.csproj" t="IncludeRecursive" />
-      </e>
-      <e p="Ultz.BeagleFramework.Npgsql" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="NpgsqlConnector.cs" t="Include" />
-        <e p="NpgsqlEngine.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netstandard2.0" t="Include">
-              <e p="Ultz.BeagleFramework.Npgsql.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Ultz.BeagleFramework.Npgsql.csproj" t="IncludeRecursive" />
+        <e p="Table.cs" t="Include" />
+        <e p="Ultz.BeagleFramework.Core.csproj" t="IncludeRecursive" />
       </e>
       <e p="Ultz.BeagleFramework.sln" t="IncludeFlat" />
-      <e p="Ultz.BeagleFramework.SQLite" t="IncludeRecursive">
+      <e p="Ultz.BeagleFramework.Sql" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.0" t="Include">
-              <e p="Ultz.BeagleFramework.SQLite.AssemblyInfo.cs" t="Include" />
+              <e p="Ultz.BeagleFramework.Sql.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="SqliteConnector.cs" t="Include" />
-        <e p="SqliteDataAdapter.cs" t="Include" />
-        <e p="SqliteEngine.cs" t="Include" />
-        <e p="SqliteTable.cs" t="Include" />
-        <e p="Ultz.BeagleFramework.SQLite.csproj" t="IncludeRecursive" />
+        <e p="SqlEngineBase.cs" t="Include" />
+        <e p="SqlQuery.cs" t="Include" />
+        <e p="SqlTable.cs" t="Include" />
+        <e p="SqlUtils.cs" t="Include" />
+        <e p="Ultz.BeagleFramework.Sql.csproj" t="IncludeRecursive" />
       </e>
       <e p="Ultz.BeagleFramework.SqlServer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -119,8 +65,7 @@
             </e>
           </e>
         </e>
-        <e p="SqlServerConnector.cs" t="Include" />
-        <e p="SqlServerEngine.cs" t="Include" />
+        <e p="SqlStorageEngine.cs" t="Include" />
         <e p="Ultz.BeagleFramework.SqlServer.csproj" t="IncludeRecursive" />
       </e>
     </e>

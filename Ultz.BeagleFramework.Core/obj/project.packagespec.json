@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.SqlServer\\Ultz.BeagleFramework.SqlServer.csproj",
-    "projectName": "Ultz.BeagleFramework.SqlServer",
-    "projectPath": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.SqlServer\\Ultz.BeagleFramework.SqlServer.csproj",
-    "outputPath": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.SqlServer\\obj\\",
+    "projectUniqueName": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.Core\\Ultz.BeagleFramework.Core.csproj",
+    "projectName": "Ultz.BeagleFramework.Core",
+    "projectPath": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.Core\\Ultz.BeagleFramework.Core.csproj",
+    "outputPath": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.Core\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\ProgramData\\Xamarin\\NuGet",
@@ -15,11 +15,7 @@
     ],
     "frameworks": {
       "netstandard2.0": {
-        "projectReferences": {
-          "E:\\14) Beagle Framework\\Ultz.BeagleFramework.Sql\\Ultz.BeagleFramework.Sql.csproj": {
-            "projectPath": "E:\\14) Beagle Framework\\Ultz.BeagleFramework.Sql\\Ultz.BeagleFramework.Sql.csproj"
-          }
-        }
+        "projectReferences": {}
       }
     },
     "warningProperties": {
@@ -36,10 +32,6 @@
           "target": "Package",
           "version": "[2.0.3, )",
           "autoReferenced": true
-        },
-        "System.Data.SqlClient": {
-          "target": "Package",
-          "version": "[4.6.0, )"
         }
       },
       "imports": [

@@ -1,9 +1,0 @@
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.deps.json
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.dll
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\bin\Debug\netcoreapp2.0\Ultz.BeagleFramework.pdb
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.csproj.CoreCompileInputs.cache
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.AssemblyInfoInputs.cache
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.AssemblyInfo.cs
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.dll
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.pdb
-C:\Users\Dylan Perks\Documents\_Important Documents\Ultz.BeagleFramework\Ultz.BeagleFramework\obj\Debug\netcoreapp2.0\Ultz.BeagleFramework.csprojResolveAssemblyReference.cache

@@ -1,0 +1,60 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "E:\\14) Beagle Framework\\DemoOne\\DemoOne.csproj",
+    "projectName": "DemoOne",
+    "projectPath": "E:\\14) Beagle Framework\\DemoOne\\DemoOne.csproj",
+    "outputPath": "E:\\14) Beagle Framework\\DemoOne\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\ProgramData\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[3.0.0-preview-27122-01, )",
+          "autoReferenced": true
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.1, )"
+        },
+        "System.Data.SqlClient": {
+          "target": "Package",
+          "version": "[4.6.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  },
+  "runtimes": {
+    "": {
+      "#import": []
+    },
+    "win-x64": {
+      "#import": []
+    }
+  }
+}

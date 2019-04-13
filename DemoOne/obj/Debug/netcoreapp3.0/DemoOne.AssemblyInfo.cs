@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Ultz.BeagleFramework.SqlServer")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DemoOne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Ultz.BeagleFramework.SqlServer")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Ultz.BeagleFramework.SqlServer")]
+[assembly: System.Reflection.AssemblyProductAttribute("DemoOne")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DemoOne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
