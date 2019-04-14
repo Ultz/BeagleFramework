@@ -14,6 +14,10 @@ namespace Ultz.BeagleFramework.Sql
         protected SqlEngineBase(string connectionString)
         {
         }
+        protected SqlEngineBase(DbConnection connection)
+        {
+            Connection = connection;
+        }
         public DbConnection Connection { get; protected set; }
         public IQuery Execute(Query query)
         {

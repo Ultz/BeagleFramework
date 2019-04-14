@@ -3,7 +3,10 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Linq;
 using Newtonsoft.Json;
+using Ultz.BeagleFramework.Core;
+using Ultz.BeagleFramework.SqlServer;
 
 #endregion
 
@@ -19,10 +22,17 @@ namespace DemoOne
             ))
             {
                 conn.Open();
-                using (var reader = new SqlCommand("select * from " + Input("Table: "), conn))
+                using (var beagle = new BeagleContext(new SqlStorageEngine(conn)))
                 {
-                    foreach (var c in reader.ExecuteReader(CommandBehavior.KeyInfo).GetColumnSchema())
-                        Console.WriteLine(JsonConvert.SerializeObject(c, Formatting.Indented));
+                    using (var table = beagle.GetTable(Input("Table: ")))
+                    {
+                        var cols = string.Join("\t", table.Columns.Select(x => x.Name));
+                        Console.WriteLine(cols);
+                        Console.WriteLine(new string('-', cols.Length));
+                        table.Rows.Select(x => string.Join("\t", x.Select(y => y.Value.ToString())))
+                            .ToList()
+                            .ForEach(Console.WriteLine);
+                    }
                 }
             }
         }

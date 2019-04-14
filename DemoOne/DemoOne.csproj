@@ -10,4 +10,9 @@
       <PackageReference Include="System.Data.SqlClient" Version="4.6.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Ultz.BeagleFramework.Core\Ultz.BeagleFramework.Core.csproj" />
+      <ProjectReference Include="..\Ultz.BeagleFramework.SqlServer\Ultz.BeagleFramework.SqlServer.csproj" />
+    </ItemGroup>
+
 </Project>

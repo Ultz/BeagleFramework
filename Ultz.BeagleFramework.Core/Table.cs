@@ -10,7 +10,7 @@ using Ultz.BeagleFramework.Core.Structure;
 
 namespace Ultz.BeagleFramework.Core
 {
-    public class Table : ICollection<Row>
+    public class Table : ICollection<Row>, IDisposable
     {
         public Table
         (
@@ -22,10 +22,10 @@ namespace Ultz.BeagleFramework.Core
             bool isReadOnly = true
         )
         {
+            Columns = cols;
             foreach (var row in rows) row.Associate(this);
 
             Rows = rows;
-            Columns = cols;
             Query = sql;
             Name = name;
             Engine = engine;
@@ -117,5 +117,9 @@ namespace Ultz.BeagleFramework.Core
 
         public int Count => Rows.Count;
         public bool IsReadOnly { get; }
+
+        public void Dispose()
+        {
+        }
     }
 }

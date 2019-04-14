@@ -15,6 +15,11 @@ namespace Ultz.BeagleFramework.SqlServer
             Connection = new SqlConnection(connectionString);
         }
 
+        public SqlStorageEngine(SqlConnection connection) : base(connection)
+        {
+            
+        }
+
         public override DbCommand Translate(Query query)
         {
             var str = "";

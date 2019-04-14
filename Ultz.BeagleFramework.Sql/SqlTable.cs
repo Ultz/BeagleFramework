@@ -2,6 +2,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using System.Linq;
 using Ultz.BeagleFramework.Core;
@@ -52,24 +53,27 @@ namespace Ultz.BeagleFramework.Sql
 
         public (IEnumerable<Row>, IEnumerable<Column>) Read()
         {
-            var reader = _cmd.ExecuteReader();
-            _columns = reader.GetColumnSchema()
-                .Select
-                (
-                    (x, y) =>
-                    {
-                        Name = x.BaseTableName;
-                        return new Column
+            using (var reader = _cmd.ExecuteReader(CommandBehavior.KeyInfo))
+            {
+                _columns = reader.GetColumnSchema()
+                    .Select
+                    (
+                        (x, y) =>
                         {
-                            Index = y, Name = x.ColumnName, Type = SqlUtils.ConvertToDataType(x),
-                            Constraints = SqlUtils.GetConstraints(x).ToList()
-                        };
-                    }
-                )
-                .ToList();
-            _rows = reader.Enumerate()
-                .Select(x => new Row(_columns.Select((y, z) => new Field {Value = x[z]})))
-                .ToList();
+                            Name = x.BaseTableName;
+                            return new Column
+                            {
+                                Index = y, Name = x.ColumnName, Type = SqlUtils.ConvertToDataType(x),
+                                Constraints = SqlUtils.GetConstraints(x).ToList()
+                            };
+                        }
+                    )
+                    .ToList();
+                _rows = reader.Enumerate()
+                    .Select(x => new Row(_columns.Select((y, z) => new Field {Value = x[z]})))
+                    .ToList();
+            }
+
             return (_rows, _columns);
         }
     }
