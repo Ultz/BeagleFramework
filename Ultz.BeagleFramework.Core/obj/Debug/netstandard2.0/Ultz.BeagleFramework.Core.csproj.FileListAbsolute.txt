@@ -1,4 +1,0 @@
-E:\14) Beagle Framework\Ultz.BeagleFramework.Core\obj\Debug\netstandard2.0\Ultz.BeagleFramework.Core.csprojAssemblyReference.cache
-E:\14) Beagle Framework\Ultz.BeagleFramework.Core\obj\Debug\netstandard2.0\Ultz.BeagleFramework.Core.csproj.CoreCompileInputs.cache
-E:\14) Beagle Framework\Ultz.BeagleFramework.Core\obj\Debug\netstandard2.0\Ultz.BeagleFramework.Core.AssemblyInfoInputs.cache
-E:\14) Beagle Framework\Ultz.BeagleFramework.Core\obj\Debug\netstandard2.0\Ultz.BeagleFramework.Core.AssemblyInfo.cs
