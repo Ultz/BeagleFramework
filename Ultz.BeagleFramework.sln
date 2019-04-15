@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOne", "DemoOne\DemoOne.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.SqlServer", "Ultz.BeagleFramework.SqlServer\Ultz.BeagleFramework.SqlServer.csproj", "{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.Store", "Ultz.BeagleFramework.Store\Ultz.BeagleFramework.Store.csproj", "{8E32990A-345A-488C-B670-40EA62C8ABFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E32990A-345A-488C-B670-40EA62C8ABFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E32990A-345A-488C-B670-40EA62C8ABFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E32990A-345A-488C-B670-40EA62C8ABFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E32990A-345A-488C-B670-40EA62C8ABFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

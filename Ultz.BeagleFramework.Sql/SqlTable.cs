@@ -11,7 +11,7 @@ using Ultz.BeagleFramework.Core;
 
 namespace Ultz.BeagleFramework.Sql
 {
-    public class SqlTable : IReadOnlyList<Row>, IReadOnlyList<Column>
+    public class SqlTable : IRowCollection, IColumnCollection
     {
         private readonly DbCommand _cmd;
         private IEnumerable<Column> _columns;
@@ -34,6 +34,11 @@ namespace Ultz.BeagleFramework.Sql
         int IReadOnlyCollection<Column>.Count => (_columns ?? Read().Item2).Count();
 
         Column IReadOnlyList<Column>.this[int index] => (_columns ?? Read().Item2).ElementAtOrDefault(index);
+
+        public int IndexOf(string col)
+        {
+            return (_columns ?? Read().Item2).TakeWhile(x => x.Name != col).Count();
+        }
 
         public IEnumerator<Row> GetEnumerator()
         {
@@ -63,7 +68,7 @@ namespace Ultz.BeagleFramework.Sql
                             Name = x.BaseTableName;
                             return new Column
                             {
-                                Index = y, Name = x.ColumnName, Type = SqlUtils.ConvertToDataType(x),
+                                Name = x.ColumnName, Type = SqlUtils.ConvertToDataType(x),
                                 Constraints = SqlUtils.GetConstraints(x).ToList()
                             };
                         }

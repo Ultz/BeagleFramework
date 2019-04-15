@@ -177,5 +177,53 @@ namespace Ultz.BeagleFramework.Core.Structure
             Clauses.Add(new Clause.Update());
             return this;
         }
+
+        public QueryBuilder Create()
+        {
+            Clauses.Add(new Clause.Create());
+            return this;
+        }
+
+        public QueryBuilder Table()
+        {
+            Clauses.Add(new Clause.Table());
+            return this;
+        }
+
+        public QueryBuilder PseudoColumns(params Clause.PseudoColumn[] values)
+        {
+            Clauses.Add(new Clause.PseudoColumnGroup() {Columns = values});
+            return this;
+        }
+
+        public QueryBuilder PseudoColumns(params (string, DataType)[] values)
+        {
+            Clauses.Add
+            (
+                new Clause.PseudoColumnGroup()
+                    {Columns = values.Select(x => new Clause.PseudoColumn() {Name = x.Item1, Type = x.Item2}).ToArray()}
+            );
+            return this;
+        }
+
+        public QueryBuilder PseudoColumns(params (string, DataType, Constraint[])[] values)
+        {
+            Clauses.Add
+            (
+                new Clause.PseudoColumnGroup()
+                {
+                    Columns = values.Select
+                            (x => new Clause.PseudoColumn() {Name = x.Item1, Type = x.Item2, Constraints = x.Item3})
+                        .ToArray()
+                }
+            );
+            return this;
+        }
+
+        public QueryBuilder Drop()
+        {
+            Clauses.Add(new Clause.Drop());
+            return this;
+        }
     }
 }

@@ -28,6 +28,10 @@ namespace Ultz.BeagleFramework.Core
 
         public Field this[int index] => _fields[index];
 
+        public Field this[string index] =>
+            _fields[Table?.Columns.IndexOf(index)
+                    ?? throw new NotSupportedException("This row isn't associated with a table.")];
+
         public IEnumerator<Field> GetEnumerator()
         {
             return _fields.Cast<Field>().GetEnumerator();

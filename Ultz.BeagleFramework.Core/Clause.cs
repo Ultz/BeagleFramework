@@ -12,6 +12,18 @@ namespace Ultz.BeagleFramework.Core.Structure
         {
         }
 
+        public class Create : Clause
+        {
+        }
+
+        public class Table : Clause
+        {
+        }
+
+        public class Drop : Clause
+        {
+        }
+
         public class Wildcard : Clause
         {
         }
@@ -119,6 +131,18 @@ namespace Ultz.BeagleFramework.Core.Structure
         public class ValuesGroup : Clause
         {
             public Values[] Items { get; set; }
+        }
+
+        public class PseudoColumn : Clause
+        {
+            public string Name { get; set; }
+            public DataType Type { get; set; }
+            public Constraint[] Constraints { get; set; }
+        }
+
+        public class PseudoColumnGroup : Clause
+        {
+            public PseudoColumn[] Columns { get; set; }
         }
     }
 }

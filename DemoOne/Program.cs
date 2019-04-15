@@ -24,7 +24,7 @@ namespace DemoOne
                 conn.Open();
                 using (var beagle = new BeagleContext(new SqlStorageEngine(conn)))
                 {
-                    using (var table = beagle.GetTable(Input("Table: ")))
+                    using (var table = beagle.CreateTable(Input("Table: ")))
                     {
                         var cols = string.Join("\t", table.Columns.Select(x => x.Name));
                         Console.WriteLine(cols);

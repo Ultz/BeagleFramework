@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.Common;
 using System.Data.SqlClient;
 using System.Linq;
+using Ultz.BeagleFramework.Core;
 using Ultz.BeagleFramework.Core.Structure;
 using Ultz.BeagleFramework.Sql;
 
@@ -135,6 +136,15 @@ namespace Ultz.BeagleFramework.SqlServer
                     case Clause.ColumnNames cols:
                         str += string.Join(", ", cols.Columns);
                         break;
+                    case Clause.PseudoColumnGroup cols:
+                        str += "(" + string.Join(", ", cols.Columns.Select(x => x.Name + " " + GetType(x.Type)));
+                        break;
+                    case Clause.Drop _:
+                        str += "DROP";
+                        break;
+                    case Clause.Table _:
+                        str += "TABLE";
+                        break;
                 }
 
                 str += " ";
@@ -142,6 +152,11 @@ namespace Ultz.BeagleFramework.SqlServer
             var cmd = new SqlCommand(str, (SqlConnection)Connection);
             values.ForEach(x => cmd.Parameters.Add(x));
             return cmd;
+        }
+
+        private static string GetType(DataType type)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -16,8 +16,8 @@ namespace Ultz.BeagleFramework.Core
         (
             IStorageEngine engine,
             string name,
-            IReadOnlyList<Row> rows,
-            IReadOnlyList<Column> cols,
+            IRowCollection rows,
+            IColumnCollection cols,
             Query sql,
             bool isReadOnly = true
         )
@@ -34,8 +34,8 @@ namespace Ultz.BeagleFramework.Core
 
         public bool CanPush => !IsReadOnly && CanPull;
         public Query Query { get; }
-        public IReadOnlyList<Column> Columns { get; }
-        public IReadOnlyList<Row> Rows { get; }
+        public IColumnCollection Columns { get; }
+        public IRowCollection Rows { get; }
         public IStorageEngine Engine { get; }
         public string Name { get; }
         public bool CanPull => Query != null && Engine != null;
@@ -61,7 +61,7 @@ namespace Ultz.BeagleFramework.Core
                 new QueryBuilder().Insert()
                     .Into()
                     .TableName(Name)
-                    .Columns(item.Where(x => x.Value != null).Select((x, y) => Columns[y].Name).ToArray())
+                    .Columns(item.Where(x => x.Value != null).Select((_, x) => Columns[x].Name).ToArray())
                     .Values(item.Where(x => x.Value != null).Select(x => x.Value))
                     .Build()
             )
