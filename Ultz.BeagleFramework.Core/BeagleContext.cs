@@ -2,7 +2,6 @@
 
 using System;
 using System.Linq;
-using Ultz.BeagleFramework.Core.Structure;
 
 #endregion
 
@@ -14,6 +13,7 @@ namespace Ultz.BeagleFramework.Core
         {
             StorageEngine = engine;
         }
+
         public IStorageEngine StorageEngine { get; set; }
 
         public Table GetTable(string name)
@@ -30,18 +30,22 @@ namespace Ultz.BeagleFramework.Core
                 .AsTable(false);
         }
 
-        public Table CreateTable(string name, params Column[] columns)
+        public Table CreateTable(string name, Column c1, params Column[] columns)
         {
-            return StorageEngine.Execute
+            StorageEngine.Execute
                 (
                     new QueryBuilder()
                         .Create()
                         .Table()
                         .TableName(name)
-                        .PseudoColumns(columns.Select(x => (x.Name, x.Type, x.Constraints.ToArray())).ToArray())
+                        .PseudoColumns
+                        (
+                            new[] {c1}.Concat(columns).Select(x => (x.Name, x.Type, x.Constraints.ToArray())).ToArray()
+                        )
                         .Build()
                 )
-                .AsTable(false);
+                .AsNonQuery();
+            return GetTable(name);
         }
 
         public void DeleteTable(string name)

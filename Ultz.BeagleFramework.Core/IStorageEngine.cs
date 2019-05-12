@@ -1,7 +1,6 @@
 #region
 
 using System;
-using Ultz.BeagleFramework.Core.Structure;
 
 #endregion
 

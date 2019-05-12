@@ -1,9 +1,7 @@
 #region
 
-using System;
 using System.Data.Common;
 using Ultz.BeagleFramework.Core;
-using Ultz.BeagleFramework.Core.Structure;
 
 #endregion
 

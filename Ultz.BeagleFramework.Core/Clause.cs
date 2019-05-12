@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 #endregion
 
-namespace Ultz.BeagleFramework.Core.Structure
+namespace Ultz.BeagleFramework.Core
 {
     public abstract class Clause
     {
@@ -36,11 +36,12 @@ namespace Ultz.BeagleFramework.Core.Structure
         public class ColumnNames : Clause
         {
             public List<string> Columns { get; set; }
+            public bool Group { get; set; }
         }
 
         public class Set : Clause
         {
-            public List<(string, object)> Values { get; set; }
+            public new List<(string, object)> Values { get; set; }
         }
 
         public class From : Clause
@@ -49,7 +50,7 @@ namespace Ultz.BeagleFramework.Core.Structure
 
         public class TableName : Clause
         {
-            public string Table { get; set; }
+            public new string Table { get; set; }
         }
 
         public class Where : Clause

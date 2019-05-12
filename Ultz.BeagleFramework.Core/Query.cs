@@ -1,4 +1,4 @@
-namespace Ultz.BeagleFramework.Core.Structure
+namespace Ultz.BeagleFramework.Core
 {
     public class Query
     {

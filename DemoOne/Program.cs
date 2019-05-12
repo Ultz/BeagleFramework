@@ -1,10 +1,8 @@
 ﻿#region
 
 using System;
-using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
-using Newtonsoft.Json;
 using Ultz.BeagleFramework.Core;
 using Ultz.BeagleFramework.SqlServer;
 
@@ -24,12 +22,21 @@ namespace DemoOne
                 conn.Open();
                 using (var beagle = new BeagleContext(new SqlStorageEngine(conn)))
                 {
-                    using (var table = beagle.CreateTable(Input("Table: ")))
+                    using (var table = beagle.CreateTable(Input("Table: "), new Column("num", DataType.Int64, true), new Column("str", DataType.String)))
                     {
-                        var cols = string.Join("\t", table.Columns.Select(x => x.Name));
+                        table.Clear();
+                        var cols = string.Join("\t\t", table.Columns.Select(x => x.Name));
                         Console.WriteLine(cols);
                         Console.WriteLine(new string('-', cols.Length));
-                        table.Rows.Select(x => string.Join("\t", x.Select(y => y.Value.ToString())))
+                        var row = new Row(431L, "Hi There!");
+                        table.Add(row);
+                        table.Rows.Select(x => string.Join("\t\t", x.Select(y => y.Value.ToString())))
+                            .ToList()
+                            .ForEach(Console.WriteLine);
+                        Console.WriteLine();
+                        row[1].Value = "Goodbye.";
+                        row.SaveChanges();
+                        table.Rows.Select(x => string.Join("\t\t", x.Select(y => y.Value.ToString())))
                             .ToList()
                             .ForEach(Console.WriteLine);
                     }

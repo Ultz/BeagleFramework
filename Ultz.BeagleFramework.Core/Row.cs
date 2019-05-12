@@ -4,7 +4,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Ultz.BeagleFramework.Core.Structure;
 
 #endregion
 
@@ -19,6 +18,14 @@ namespace Ultz.BeagleFramework.Core
         public Row(IEnumerable<Field> fields)
         {
             _fields = fields.ToArray();
+        }
+        public Row(params Field[] fields)
+        {
+            _fields = fields;
+        }
+        public Row(params object[] fields)
+        {
+            _fields = fields.Select(x => new Field(){Value = x}).ToArray();
         }
 
         public Table Table { get; private set; }

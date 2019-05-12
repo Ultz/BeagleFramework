@@ -2,7 +2,6 @@
 
 using System.Collections.Generic;
 using Ultz.BeagleFramework.Core;
-using Ultz.BeagleFramework.Core.Structure;
 
 #endregion
 

@@ -1,7 +1,5 @@
 #region
 
-using Ultz.BeagleFramework.Core.Structure;
-
 #endregion
 
 namespace Ultz.BeagleFramework.Core
@@ -34,11 +32,6 @@ namespace Ultz.BeagleFramework.Core
         public class Default : Constraint
         {
             public object Value { get; set; }
-        }
-
-        public class Index : Constraint
-        {
-            public string Name { get; set; }
         }
     }
 }

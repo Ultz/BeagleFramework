@@ -5,7 +5,7 @@ using System.Linq;
 
 #endregion
 
-namespace Ultz.BeagleFramework.Core.Structure
+namespace Ultz.BeagleFramework.Core
 {
     public class QueryBuilder
     {
@@ -36,7 +36,12 @@ namespace Ultz.BeagleFramework.Core.Structure
 
         public QueryBuilder Columns(params string[] names)
         {
-            Clauses.Add(new Clause.ColumnNames {Columns = names.ToList()});
+            return Columns(false, names);
+        }
+
+        public QueryBuilder Columns(bool parentheses, params string[] names)
+        {
+            Clauses.Add(new Clause.ColumnNames {Columns = names.ToList(), Group = parentheses});
             return this;
         }
 

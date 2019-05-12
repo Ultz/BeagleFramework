@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Common;
 using System.Data.SqlClient;
+using System.Diagnostics;
 using System.Linq;
 using Ultz.BeagleFramework.Core;
-using Ultz.BeagleFramework.Core.Structure;
 using Ultz.BeagleFramework.Sql;
+using Constraint = Ultz.BeagleFramework.Core.Constraint;
+using DbTypeMapEntry = System.Tuple<System.Type, System.Data.DbType, System.Data.SqlDbType>;
 
 namespace Ultz.BeagleFramework.SqlServer
 {
@@ -18,13 +21,21 @@ namespace Ultz.BeagleFramework.SqlServer
 
         public SqlStorageEngine(SqlConnection connection) : base(connection)
         {
-            
         }
 
         public override DbCommand Translate(Query query)
         {
-            var str = "";
             var values = new List<SqlParameter>();
+            var str = ToString(query, values);
+            Debug.WriteLine("sql: " + str);
+            var cmd = new SqlCommand(str, (SqlConnection) Connection);
+            values.ForEach(x => cmd.Parameters.Add(x));
+            return cmd;
+        }
+
+        public string ToString(Query query, List<SqlParameter> values)
+        {
+            var str = "";
             foreach (var clause in query.Clauses)
             {
                 switch (clause)
@@ -76,7 +87,7 @@ namespace Ultz.BeagleFramework.SqlServer
                         str += "DELETE";
                         break;
                     case Clause.Insert _:
-                        str += "DELETE";
+                        str += "INSERT";
                         break;
                     case Clause.Select _:
                         str += "SELECT";
@@ -134,10 +145,22 @@ namespace Ultz.BeagleFramework.SqlServer
                         str += "!=";
                         break;
                     case Clause.ColumnNames cols:
+                        if (cols.Group)
+                            str += "(";
                         str += string.Join(", ", cols.Columns);
+                        if (cols.Group)
+                            str += ")";
                         break;
                     case Clause.PseudoColumnGroup cols:
-                        str += "(" + string.Join(", ", cols.Columns.Select(x => x.Name + " " + GetType(x.Type)));
+                        str += "(" + string.Join
+                               (
+                                   ", ",
+                                   GetWithConstraints
+                                   (
+                                       cols.Columns.Select
+                                           (x => "[" + x.Name + "] " + GetType(x.Type)), cols.Columns, values
+                                   )
+                               ) + ")";
                         break;
                     case Clause.Drop _:
                         str += "DROP";
@@ -145,18 +168,119 @@ namespace Ultz.BeagleFramework.SqlServer
                     case Clause.Table _:
                         str += "TABLE";
                         break;
+                    case Clause.Create _:
+                        str += "CREATE";
+                        break;
                 }
 
                 str += " ";
             }
-            var cmd = new SqlCommand(str, (SqlConnection)Connection);
-            values.ForEach(x => cmd.Parameters.Add(x));
-            return cmd;
+
+            return str;
+        }
+
+        private IEnumerable<string> GetWithConstraints
+            (IEnumerable<string> q, Clause.PseudoColumn[] cols, List<SqlParameter> values)
+        {
+            var strs = q.ToArray();
+            for (var index = 0; index < cols.Length; index++)
+            {
+                var col = cols[index];
+                foreach (var con in col.Constraints)
+                {
+                    switch (con)
+                    {
+                        case Constraint.Check ch:
+                            strs[index] += " CHECK (" + ToString(ch.Condition, values) + ")";
+                            break;
+                        case Constraint.Default df:
+                            strs[index] += " DEFAULT @Parameter" + values.Count;
+                            values.Add(new SqlParameter("Parameter" + values.Count, df.Value));
+                            break;
+                        case Constraint.ForeignKey fk:
+                            strs[index] += " FOREIGN KEY REFERENCES " + fk.ForeignTable + "(" + fk.ForeignColumn + ")";
+                            break;
+                        case Constraint.NotNull _:
+                            strs[index] += " NOT NULL";
+                            break;
+                        case Constraint.PrimaryKey _:
+                            strs[index] += " PRIMARY KEY";
+                            break;
+                        case Constraint.Unique _:
+                            strs[index] += " UNIQUE";
+                            break;
+                    }
+                }
+            }
+
+            return strs;
         }
 
         private static string GetType(DataType type)
         {
-            throw new NotImplementedException();
+            switch (type.Type)
+            {
+                case DbType.AnsiString:
+                    return "varchar("+(type.Length == -1 ? "max" : type.Length.ToString())+")";
+                case DbType.AnsiStringFixedLength:
+                    if (type.Length < 1)
+                        throw new ArgumentOutOfRangeException(nameof(type.Length),"A length must be specified for a fixed-length string.");
+                    return "char("+type.Length+")";
+                case DbType.Binary:
+                    return "varbinary("+(type.Length == -1 ? "max" : type.Length.ToString())+")";
+                case DbType.Boolean:
+                    return "bit";
+                case DbType.Byte:
+                    return "tinyint";
+                case DbType.Currency:
+                    return "money";
+                case DbType.Date:
+                    return "date";
+                case DbType.DateTime:
+                    return "datetime";
+                case DbType.DateTime2:
+                    return "datetime2";
+                case DbType.DateTimeOffset:
+                    return "datetimeoffset";
+                case DbType.Decimal:
+                    return "decimal";
+                case DbType.Double:
+                    return "float";
+                case DbType.Guid:
+                    return "uniqueidentifier";
+                case DbType.Int16:
+                    return "smallint";
+                case DbType.Int32:
+                    return "int";
+                case DbType.Int64:
+                    return "bigint";
+                case DbType.Object:
+                    return "sql_variant";
+                case DbType.SByte:
+                    return "smallint";
+                case DbType.Single:
+                    return "real";
+                case DbType.String:
+                    return "nvarchar("+(type.Length == -1 ? "max" : type.Length.ToString())+")";
+                case DbType.StringFixedLength:
+                    if (type.Length < 1)
+                        throw new ArgumentOutOfRangeException(nameof(type.Length),"A length must be specified for a fixed-length string.");
+                    return "nchar("+type.Length+")";
+                case DbType.Time:
+                    return "time";
+                case DbType.UInt16:
+                    return "int";
+                case DbType.UInt32:
+                    return "bigint";
+                case DbType.UInt64:
+                    return "decimal(20,0)";
+                case DbType.VarNumeric:
+                    throw new ArgumentException("Couldn't map DbType VarNumeric", nameof(type.Type));
+                case DbType.Xml:
+                    return "xml";
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
         }
     }
 }

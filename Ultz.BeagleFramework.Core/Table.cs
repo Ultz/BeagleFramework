@@ -4,7 +4,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Ultz.BeagleFramework.Core.Structure;
 
 #endregion
 
@@ -56,13 +55,14 @@ namespace Ultz.BeagleFramework.Core
         {
             if (item == null)
                 throw new ArgumentNullException(nameof(item));
+            item.Associate(this);
             Engine.Execute
             (
                 new QueryBuilder().Insert()
                     .Into()
                     .TableName(Name)
-                    .Columns(item.Where(x => x.Value != null).Select((_, x) => Columns[x].Name).ToArray())
-                    .Values(item.Where(x => x.Value != null).Select(x => x.Value))
+                    .Columns(true, item.Where(x => x.Value != null).Select((_, x) => Columns[x].Name).ToArray())
+                    .Values(item.Where(x => x.Value != null).Select(x => x.Value).ToArray())
                     .Build()
             )
             .AsNonQuery();
