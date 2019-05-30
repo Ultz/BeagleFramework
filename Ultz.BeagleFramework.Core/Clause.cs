@@ -145,5 +145,22 @@ namespace Ultz.BeagleFramework.Core
         {
             public PseudoColumn[] Columns { get; set; }
         }
+
+        public class Alter : Clause
+        {
+        }
+
+        public class Add : Clause
+        {
+        }
+
+        public class Column : Clause
+        {
+        }
+
+        public class InformationSchema : Clause
+        {
+            public string Collection { get; set; }
+        }
     }
 }

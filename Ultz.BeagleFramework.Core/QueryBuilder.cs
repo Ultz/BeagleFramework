@@ -28,6 +28,18 @@ namespace Ultz.BeagleFramework.Core
             return this;
         }
 
+        public QueryBuilder Column()
+        {
+            Clauses.Add(new Clause.Column());
+            return this;
+        }
+
+        public QueryBuilder InformationSchema(string collection)
+        {
+            Clauses.Add(new Clause.InformationSchema(){Collection = collection});
+            return this;
+        }
+
         public QueryBuilder Column(string name)
         {
             Clauses.Add(new Clause.ColumnName {Column = name});
@@ -228,6 +240,18 @@ namespace Ultz.BeagleFramework.Core
         public QueryBuilder Drop()
         {
             Clauses.Add(new Clause.Drop());
+            return this;
+        }
+
+        public QueryBuilder Alter()
+        {
+            Clauses.Add(new Clause.Alter());
+            return this;
+        }
+
+        public QueryBuilder Add()
+        {
+            Clauses.Add(new Clause.Add());
             return this;
         }
     }

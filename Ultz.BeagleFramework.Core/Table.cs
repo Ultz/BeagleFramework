@@ -68,9 +68,34 @@ namespace Ultz.BeagleFramework.Core
             .AsNonQuery();
         }
 
+        public void Add(Column item)
+        {
+            Engine.Execute
+            (
+                new QueryBuilder().Alter()
+                    .Table()
+                    .TableName(Name)
+                    .Add()
+                    .PseudoColumns
+                    (
+                        new Clause.PseudoColumn()
+                            {Constraints = item.Constraints.ToArray(), Name = item.Name, Type = item.Type}
+                    )
+                    .Build()
+            )
+            .AsNonQuery();
+        }
+
         public void Clear()
         {
             Engine.Execute(new QueryBuilder().Delete().From().TableName(Name).Build()).AsNonQuery();
+        }
+
+        public bool Contains(Column item)
+        {
+            if (item == null)
+                throw new ArgumentNullException(nameof(item));
+            return Columns.Contains(item);
         }
 
         public bool Contains(Row item)
@@ -113,6 +138,14 @@ namespace Ultz.BeagleFramework.Core
                 )
             )
             .AsNonQuery() > 0;
+        }
+
+        public bool Remove(Column item)
+        {
+            if (item == null)
+                throw new ArgumentNullException(nameof(item));
+            return Engine.Execute
+                (new QueryBuilder().Alter().Table().TableName(item.Name).Drop().Column().Column(item.Name).Build()).AsNonQuery() >= 1;
         }
 
         public int Count => Rows.Count;

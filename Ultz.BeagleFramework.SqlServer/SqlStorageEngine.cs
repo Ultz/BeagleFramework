@@ -40,6 +40,12 @@ namespace Ultz.BeagleFramework.SqlServer
             {
                 switch (clause)
                 {
+                    case Clause.Add _:
+                        str += "ADD";
+                        break;
+                    case Clause.Alter _:
+                        str += "ALTER";
+                        break;
                     case Clause.Value value:
                         values.Add(new SqlParameter("Parameter" + values.Count, value.Item));
                         str += "@Parameter" + (values.Count - 1);
@@ -56,8 +62,16 @@ namespace Ultz.BeagleFramework.SqlServer
                     case Clause.In _:
                         str += "IN";
                         break;
+                    case Clause.InformationSchema informationSchema:
+                        str += "INFORMATION_SCHEMA";
+                        if (informationSchema.Collection != null)
+                            str += "." + informationSchema.Collection;
+                        break;
                     case Clause.Or _:
                         str += "OR";
+                        break;
+                    case Clause.PseudoColumn pseudoColumn:
+                        str += pseudoColumn.Name + " " + GetType(pseudoColumn.Type);
                         break;
                     case Clause.And _:
                         str += "AND";
@@ -65,8 +79,24 @@ namespace Ultz.BeagleFramework.SqlServer
                     case Clause.Not _:
                         str += "NOT";
                         break;
-                    case Clause.Set _:
-                        str += "SET";
+                    case Clause.Set set:
+                        if (set.Values == null)
+                        {
+                            str += "SET";
+                        }
+                        else if (set.Values.Count != 0)
+                        {
+                            str += "SET ";
+                            var setquery = new List<string>();
+                            foreach (var (key, item) in set.Values)
+                            {
+                                values.Add(new SqlParameter("Parameter" + values.Count, item));
+                                setquery.Add(key + " = @Parameter" + (values.Count - 1));
+                            }
+
+                            str += string.Join(", ", setquery);
+                        }
+
                         break;
                     case Clause.From _:
                         str += "FROM";
@@ -109,6 +139,9 @@ namespace Ultz.BeagleFramework.SqlServer
                         break;
                     case Clause.Between _:
                         str += "BETWEEN";
+                        break;
+                    case Clause.Column _:
+                        str += "COLUMN";
                         break;
                     case Clause.Wildcard _:
                         str += "*";

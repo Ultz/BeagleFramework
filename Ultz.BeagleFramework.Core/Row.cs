@@ -61,22 +61,22 @@ namespace Ultz.BeagleFramework.Core
             if (IsReadOnly)
                 throw new NotSupportedException();
             return Table.Engine.Execute
-                       (
-                           new QueryBuilder().Update()
-                               .TableName(Table.Name)
-                               .Set
-                               (
-                                   _fields.Where((x, y) => Table.Columns[y].Name != _primaryKey)
-                                       .Select((x, y) => (Table.Columns[y].Name, x.Value))
-                                       .ToArray()
-                               )
-                               .Where()
-                               .Column(_primaryKey)
-                               .Equal()
-                               .Value(_primaryKeyValue)
-                               .Build()
-                       )
-                       .AsNonQuery() > 0;
+                   (
+                       new QueryBuilder().Update()
+                           .TableName(Table.Name)
+                           .Set
+                           (
+                               _fields.Select((x, y) => (Table.Columns[y].Name, x.Value))
+                                   .Where((x, y) => x.Name != _primaryKey)
+                                   .ToArray()
+                           )
+                           .Where()
+                           .Column(_primaryKey)
+                           .Equal()
+                           .Value(_primaryKeyValue)
+                           .Build()
+                   )
+                   .AsNonQuery() > 0;
         }
     }
 }

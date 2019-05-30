@@ -22,7 +22,7 @@ namespace DemoOne
                 conn.Open();
                 using (var beagle = new BeagleContext(new SqlStorageEngine(conn)))
                 {
-                    using (var table = beagle.CreateTable(Input("Table: "), new Column("num", DataType.Int64, true), new Column("str", DataType.String)))
+                    using (var table = beagle.GetTable(Input("Table: ")))
                     {
                         table.Clear();
                         var cols = string.Join("\t\t", table.Columns.Select(x => x.Name));
