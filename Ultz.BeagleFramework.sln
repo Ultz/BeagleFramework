@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.Core", "Ultz.BeagleFramework.Core\Ultz.BeagleFramework.Core.csproj", "{1A670DCA-AB24-458F-B90B-68FC3D6155C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.Core", "src\Ultz.BeagleFramework.Core\Ultz.BeagleFramework.Core.csproj", "{1A670DCA-AB24-458F-B90B-68FC3D6155C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.Sql", "Ultz.BeagleFramework.Sql\Ultz.BeagleFramework.Sql.csproj", "{858EC10A-F7D8-4ABE-926E-493CD4F5A763}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.Sql", "src\Ultz.BeagleFramework.Sql\Ultz.BeagleFramework.Sql.csproj", "{858EC10A-F7D8-4ABE-926E-493CD4F5A763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOne", "DemoOne\DemoOne.csproj", "{F3C7717C-4CE0-4B24-AD2F-84C7ADBBC7E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOne", "src\DemoOne\DemoOne.csproj", "{F3C7717C-4CE0-4B24-AD2F-84C7ADBBC7E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.SqlServer", "Ultz.BeagleFramework.SqlServer\Ultz.BeagleFramework.SqlServer.csproj", "{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.SqlServer", "src\Ultz.BeagleFramework.SqlServer\Ultz.BeagleFramework.SqlServer.csproj", "{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FA8AB129-4157-4C34-8E7C-B86F291FC19A}"
 ProjectSection(SolutionItems) = preProject
