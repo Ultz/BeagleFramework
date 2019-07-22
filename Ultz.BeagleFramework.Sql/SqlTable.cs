@@ -66,11 +66,7 @@ namespace Ultz.BeagleFramework.Sql
                         (x, y) =>
                         {
                             Name = x.BaseTableName;
-                            return new Column
-                            {
-                                Name = x.ColumnName, Type = SqlUtils.ConvertToDataType(x),
-                                Constraints = SqlUtils.GetConstraints(x).ToList()
-                            };
+                            return new Column(x.ColumnName, SqlUtils.ConvertToDataType(x), SqlUtils.GetConstraints(x).ToList());
                         }
                     )
                     .ToList();

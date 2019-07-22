@@ -24,21 +24,8 @@ namespace DemoOne
                 {
                     using (var table = beagle.GetTable(Input("Table: ")))
                     {
-                        table.Clear();
-                        var cols = string.Join("\t\t", table.Columns.Select(x => x.Name));
-                        Console.WriteLine(cols);
-                        Console.WriteLine(new string('-', cols.Length));
-                        var row = new Row(431L, "Hi There!");
-                        table.Add(row);
-                        table.Rows.Select(x => string.Join("\t\t", x.Select(y => y.Value.ToString())))
-                            .ToList()
-                            .ForEach(Console.WriteLine);
-                        Console.WriteLine();
-                        row[1].Value = "Goodbye.";
-                        row.SaveChanges();
-                        table.Rows.Select(x => string.Join("\t\t", x.Select(y => y.Value.ToString())))
-                            .ToList()
-                            .ForEach(Console.WriteLine);
+                        table.Add(new Column("blargh", DataType.Boolean));
+                        Console.WriteLine(string.Join(", ", table.Columns.Select(x => x.Name)));
                     }
                 }
             }

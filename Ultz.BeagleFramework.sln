@@ -8,6 +8,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoOne", "DemoOne\DemoOne.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ultz.BeagleFramework.SqlServer", "Ultz.BeagleFramework.SqlServer\Ultz.BeagleFramework.SqlServer.csproj", "{EC36B53A-8577-4B7D-8157-2DD1B30ABA1E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FA8AB129-4157-4C34-8E7C-B86F291FC19A}"
+ProjectSection(SolutionItems) = preProject
+	.nuget\nuget.props = .nuget\nuget.props
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

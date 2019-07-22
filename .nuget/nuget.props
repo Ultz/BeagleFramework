@@ -1,0 +1,11 @@
+<Project>
+    <PropertyGroup>
+        <Version>2.0.0-alpha</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Description>Beagle Framework is an add-on for the ADO.NET platform, providing easier and effective access to databases.</Description>
+        <PackageReleaseNotes>This is a pre-release version of the upcoming rewrite of Beagle Framework.</PackageReleaseNotes>
+        <RepositoryUrl>https://github.com/ultz/beagleframework</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PacakgeLicenseExpression>MIT</PacakgeLicenseExpression>
+    </PropertyGroup>
+</Project>

@@ -185,7 +185,7 @@ namespace Ultz.BeagleFramework.SqlServer
                             str += ")";
                         break;
                     case Clause.PseudoColumnGroup cols:
-                        str += "(" + string.Join
+                        str += string.Join
                                (
                                    ", ",
                                    GetWithConstraints
@@ -193,7 +193,7 @@ namespace Ultz.BeagleFramework.SqlServer
                                        cols.Columns.Select
                                            (x => "[" + x.Name + "] " + GetType(x.Type)), cols.Columns, values
                                    )
-                               ) + ")";
+                               );
                         break;
                     case Clause.Drop _:
                         str += "DROP";
